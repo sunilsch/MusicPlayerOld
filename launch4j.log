@@ -1,0 +1,176 @@
+
+
+Version:	3.50
+CmdLine:	C:\Users\Linus\Dropbox\Programmieren\Schule\idea\MusicPlayer\MusicPlayer.exe --l4j-debug
+JNI:		No
+WOW64:		Yes
+Working dir:	C:\Users\Linus\Dropbox\Programmieren\Schule\idea\MusicPlayer\.
+Requires JDK:	No
+Requires 64-Bit: No
+Java min ver:	
+Java max ver:	
+Substitute:	JAVA_HOME = 
+Substitute:	PATH = C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\Java\jdk-17\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\PuTTY\;C:\Program Files\Graphviz\bin;C:\Program Files\Git\cmd;C:\Program Files\Java\jre1.8.0_351\bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\Linus\AppData\Local\Programs\Python\Python310\Scripts\;C:\Users\Linus\AppData\Local\Programs\Python\Python310\;C:\Program Files\Java\jdk-17\bin;C:\Users\Linus\AppData\Local\Microsoft\WindowsApps;C:\Users\Linus\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Linus\Downloads\docto105;C:\texlive\2021\bin\win32;C:\msys64\mingw64\bin;C:\Users\Linus\AppData\Local\GitHubDesktop\bin;;C:\Program Files\Java\jdk-17\bin
+JRE paths:	;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\Java\jdk-17\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\PuTTY\;C:\Program Files\Graphviz\bin;C:\Program Files\Git\cmd;C:\Program Files\Java\jre1.8.0_351\bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\Linus\AppData\Local\Programs\Python\Python310\Scripts\;C:\Users\Linus\AppData\Local\Programs\Python\Python310\;C:\Program Files\Java\jdk-17\bin;C:\Users\Linus\AppData\Local\Microsoft\WindowsApps;C:\Users\Linus\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Linus\Downloads\docto105;C:\texlive\2021\bin\win32;C:\msys64\mingw64\bin;C:\Users\Linus\AppData\Local\GitHubDesktop\bin;;C:\Program Files\Java\jdk-17\bin
+Check launcher:	C:\Program Files\Common Files\Oracle\Java\javapath\bin\javaw.exe (not found)
+Check launcher:	C:\Program Files (x86)\Common Files\Oracle\Java\javapath\bin\javaw.exe (not found)
+Check launcher:	C:\Program Files\Java\jdk-17\bin\javaw.exe (OK)
+Version string: 1.017.000 / 64-Bit (OK)
+Launcher:	C:\Program Files\Java\jdk-17\bin\javaw.exe
+Launcher args:	--add-exports=java.desktop/sun.swing=ALL-UNNAMED    --add-exports=java.desktop/sun.swing.table=ALL-UNNAMED    --add-exports=java.desktop/sun.swing.plaf.synth=ALL-UNNAMED    --add-opens=java.desktop/javax.swing.plaf.synth=ALL-UNNAMED    --add-opens=java.desktop/javax.swing.plaf.basic=ALL-UNNAMED    --add-opens=java.desktop/javax.swing=ALL-UNNAMED    --add-opens=java.desktop/javax.swing.tree=ALL-UNNAMED    --add-opens=java.desktop/java.awt.event=ALL-UNNAMED    --add-exports=java.desktop/sun.awt.shell=ALL-UNNAMED    --add-exports=java.base/sun.security.action=ALL-UNNAMED -jar "C:\Users\Linus\Dropbox\Programmieren\Schule\idea\MusicPlayer\MusicPlayer.exe"
+Args length:	658/32768 chars
+Exit code:	0
+
+
+Version:	3.50
+CmdLine:	C:\Users\Linus\Dropbox\Programmieren\Schule\idea\MusicPlayer\MusicPlayer.exe --l4j-debug
+JNI:		No
+WOW64:		Yes
+Working dir:	C:\Users\Linus\Dropbox\Programmieren\Schule\idea\MusicPlayer\.
+Requires JDK:	No
+Requires 64-Bit: No
+Java min ver:	
+Java max ver:	
+Substitute:	JAVA_HOME = 
+Substitute:	PATH = C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\Java\jdk-17\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\PuTTY\;C:\Program Files\Graphviz\bin;C:\Program Files\Git\cmd;C:\Program Files\Java\jre1.8.0_351\bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\Linus\AppData\Local\Programs\Python\Python310\Scripts\;C:\Users\Linus\AppData\Local\Programs\Python\Python310\;C:\Program Files\Java\jdk-17\bin;C:\Users\Linus\AppData\Local\Microsoft\WindowsApps;C:\Users\Linus\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Linus\Downloads\docto105;C:\texlive\2021\bin\win32;C:\msys64\mingw64\bin;C:\Users\Linus\AppData\Local\GitHubDesktop\bin;;C:\Program Files\Java\jdk-17\bin
+JRE paths:	;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\Java\jdk-17\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\PuTTY\;C:\Program Files\Graphviz\bin;C:\Program Files\Git\cmd;C:\Program Files\Java\jre1.8.0_351\bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\Linus\AppData\Local\Programs\Python\Python310\Scripts\;C:\Users\Linus\AppData\Local\Programs\Python\Python310\;C:\Program Files\Java\jdk-17\bin;C:\Users\Linus\AppData\Local\Microsoft\WindowsApps;C:\Users\Linus\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Linus\Downloads\docto105;C:\texlive\2021\bin\win32;C:\msys64\mingw64\bin;C:\Users\Linus\AppData\Local\GitHubDesktop\bin;;C:\Program Files\Java\jdk-17\bin
+Check launcher:	C:\Program Files\Common Files\Oracle\Java\javapath\bin\javaw.exe (not found)
+Check launcher:	C:\Program Files (x86)\Common Files\Oracle\Java\javapath\bin\javaw.exe (not found)
+Check launcher:	C:\Program Files\Java\jdk-17\bin\javaw.exe (OK)
+Version string: 1.017.000 / 64-Bit (OK)
+Launcher:	C:\Program Files\Java\jdk-17\bin\javaw.exe
+Launcher args:	--add-exports=java.desktop/sun.swing=ALL-UNNAMED    --add-exports=java.desktop/sun.swing.table=ALL-UNNAMED    --add-exports=java.desktop/sun.swing.plaf.synth=ALL-UNNAMED    --add-opens=java.desktop/javax.swing.plaf.synth=ALL-UNNAMED    --add-opens=java.desktop/javax.swing.plaf.basic=ALL-UNNAMED    --add-opens=java.desktop/javax.swing=ALL-UNNAMED    --add-opens=java.desktop/javax.swing.tree=ALL-UNNAMED    --add-opens=java.desktop/java.awt.event=ALL-UNNAMED    --add-exports=java.desktop/sun.awt.shell=ALL-UNNAMED    --add-exports=java.base/sun.security.action=ALL-UNNAMED -jar "C:\Users\Linus\Dropbox\Programmieren\Schule\idea\MusicPlayer\MusicPlayer.exe"
+Args length:	658/32768 chars
+Exit code:	0
+
+
+Version:	3.50
+CmdLine:	C:\Users\Linus\Dropbox\Programmieren\Schule\idea\MusicPlayer\MusicPlayer.exe --l4j-debug
+JNI:		No
+WOW64:		Yes
+Working dir:	C:\Users\Linus\Dropbox\Programmieren\Schule\idea\MusicPlayer\.
+Requires JDK:	No
+Requires 64-Bit: No
+Java min ver:	
+Java max ver:	
+Substitute:	JAVA_HOME = 
+Substitute:	PATH = C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\Java\jdk-17\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\PuTTY\;C:\Program Files\Graphviz\bin;C:\Program Files\Git\cmd;C:\Program Files\Java\jre1.8.0_351\bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\Linus\AppData\Local\Programs\Python\Python310\Scripts\;C:\Users\Linus\AppData\Local\Programs\Python\Python310\;C:\Program Files\Java\jdk-17\bin;C:\Users\Linus\AppData\Local\Microsoft\WindowsApps;C:\Users\Linus\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Linus\Downloads\docto105;C:\texlive\2021\bin\win32;C:\msys64\mingw64\bin;C:\Users\Linus\AppData\Local\GitHubDesktop\bin;;C:\Program Files\Java\jdk-17\bin
+JRE paths:	;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\Java\jdk-17\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\PuTTY\;C:\Program Files\Graphviz\bin;C:\Program Files\Git\cmd;C:\Program Files\Java\jre1.8.0_351\bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\Linus\AppData\Local\Programs\Python\Python310\Scripts\;C:\Users\Linus\AppData\Local\Programs\Python\Python310\;C:\Program Files\Java\jdk-17\bin;C:\Users\Linus\AppData\Local\Microsoft\WindowsApps;C:\Users\Linus\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Linus\Downloads\docto105;C:\texlive\2021\bin\win32;C:\msys64\mingw64\bin;C:\Users\Linus\AppData\Local\GitHubDesktop\bin;;C:\Program Files\Java\jdk-17\bin
+Check launcher:	C:\Program Files\Common Files\Oracle\Java\javapath\bin\javaw.exe (not found)
+Check launcher:	C:\Program Files (x86)\Common Files\Oracle\Java\javapath\bin\javaw.exe (not found)
+Check launcher:	C:\Program Files\Java\jdk-17\bin\javaw.exe (OK)
+Version string: 1.017.000 / 64-Bit (OK)
+Launcher:	C:\Program Files\Java\jdk-17\bin\javaw.exe
+Launcher args:	--add-exports=java.desktop/sun.swing=ALL-UNNAMED    --add-exports=java.desktop/sun.swing.table=ALL-UNNAMED    --add-exports=java.desktop/sun.swing.plaf.synth=ALL-UNNAMED    --add-opens=java.desktop/javax.swing.plaf.synth=ALL-UNNAMED    --add-opens=java.desktop/javax.swing.plaf.basic=ALL-UNNAMED    --add-opens=java.desktop/javax.swing=ALL-UNNAMED    --add-opens=java.desktop/javax.swing.tree=ALL-UNNAMED    --add-opens=java.desktop/java.awt.event=ALL-UNNAMED    --add-exports=java.desktop/sun.awt.shell=ALL-UNNAMED    --add-exports=java.base/sun.security.action=ALL-UNNAMED -jar "C:\Users\Linus\Dropbox\Programmieren\Schule\idea\MusicPlayer\MusicPlayer.exe"
+Args length:	658/32768 chars
+Exit code:	0
+
+
+Version:	3.50
+CmdLine:	C:\Users\Linus\Dropbox\Programmieren\Schule\idea\MusicPlayer\MusicPlayer.exe --l4j-debug
+JNI:		No
+WOW64:		Yes
+Working dir:	C:\Users\Linus\Dropbox\Programmieren\Schule\idea\MusicPlayer\.
+Requires JDK:	No
+Requires 64-Bit: No
+Java min ver:	
+Java max ver:	
+Substitute:	JAVA_HOME = 
+Substitute:	PATH = C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\Java\jdk-17\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\PuTTY\;C:\Program Files\Graphviz\bin;C:\Program Files\Git\cmd;C:\Program Files\Java\jre1.8.0_351\bin;C:\Program Files\Java\jdk-18.0.2;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\Linus\AppData\Local\Programs\Python\Python310\Scripts\;C:\Users\Linus\AppData\Local\Programs\Python\Python310\;C:\Program Files\Java\jdk-17\bin;C:\Users\Linus\AppData\Local\Microsoft\WindowsApps;C:\Users\Linus\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Linus\Downloads\docto105;C:\texlive\2021\bin\win32;C:\msys64\mingw64\bin;C:\Users\Linus\AppData\Local\GitHubDesktop\bin;;C:\Program Files\Java\jdk-17\bin
+JRE paths:	;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\Java\jdk-17\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\PuTTY\;C:\Program Files\Graphviz\bin;C:\Program Files\Git\cmd;C:\Program Files\Java\jre1.8.0_351\bin;C:\Program Files\Java\jdk-18.0.2;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\Linus\AppData\Local\Programs\Python\Python310\Scripts\;C:\Users\Linus\AppData\Local\Programs\Python\Python310\;C:\Program Files\Java\jdk-17\bin;C:\Users\Linus\AppData\Local\Microsoft\WindowsApps;C:\Users\Linus\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Linus\Downloads\docto105;C:\texlive\2021\bin\win32;C:\msys64\mingw64\bin;C:\Users\Linus\AppData\Local\GitHubDesktop\bin;;C:\Program Files\Java\jdk-17\bin
+Check launcher:	C:\Program Files\Common Files\Oracle\Java\javapath\bin\javaw.exe (not found)
+Check launcher:	C:\Program Files (x86)\Common Files\Oracle\Java\javapath\bin\javaw.exe (not found)
+Check launcher:	C:\Program Files\Java\jdk-17\bin\javaw.exe (OK)
+Version string: 1.017.000 / 64-Bit (OK)
+Launcher:	C:\Program Files\Java\jdk-17\bin\javaw.exe
+Launcher args:	--add-exports=java.desktop/sun.swing=ALL-UNNAMED    --add-exports=java.desktop/sun.swing.table=ALL-UNNAMED    --add-exports=java.desktop/sun.swing.plaf.synth=ALL-UNNAMED    --add-opens=java.desktop/javax.swing.plaf.synth=ALL-UNNAMED    --add-opens=java.desktop/javax.swing.plaf.basic=ALL-UNNAMED    --add-opens=java.desktop/javax.swing=ALL-UNNAMED    --add-opens=java.desktop/javax.swing.tree=ALL-UNNAMED    --add-opens=java.desktop/java.awt.event=ALL-UNNAMED    --add-exports=java.desktop/sun.awt.shell=ALL-UNNAMED    --add-exports=java.base/sun.security.action=ALL-UNNAMED -jar "C:\Users\Linus\Dropbox\Programmieren\Schule\idea\MusicPlayer\MusicPlayer.exe"
+Args length:	658/32768 chars
+Exit code:	0
+
+
+Version:	3.50
+CmdLine:	C:\Users\Linus\Dropbox\Programmieren\Schule\idea\MusicPlayer\MusicPlayer.exe --l4j-debug
+JNI:		No
+WOW64:		Yes
+Working dir:	C:\Users\Linus\Dropbox\Programmieren\Schule\idea\MusicPlayer\.
+Requires JDK:	No
+Requires 64-Bit: No
+Java min ver:	
+Java max ver:	
+Substitute:	JAVA_HOME = 
+Substitute:	PATH = C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\Java\jdk-17\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\PuTTY\;C:\Program Files\Graphviz\bin;C:\Program Files\Git\cmd;C:\Program Files\Java\jre1.8.0_351\bin;C:\Program Files\Java\jdk-18.0.2;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\Linus\AppData\Local\Programs\Python\Python310\Scripts\;C:\Users\Linus\AppData\Local\Programs\Python\Python310\;C:\Program Files\Java\jdk-17\bin;C:\Users\Linus\AppData\Local\Microsoft\WindowsApps;C:\Users\Linus\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Linus\Downloads\docto105;C:\texlive\2021\bin\win32;C:\msys64\mingw64\bin;C:\Users\Linus\AppData\Local\GitHubDesktop\bin;;C:\Program Files\Java\jdk-17\bin
+JRE paths:	;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\Java\jdk-17\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\PuTTY\;C:\Program Files\Graphviz\bin;C:\Program Files\Git\cmd;C:\Program Files\Java\jre1.8.0_351\bin;C:\Program Files\Java\jdk-18.0.2;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\Linus\AppData\Local\Programs\Python\Python310\Scripts\;C:\Users\Linus\AppData\Local\Programs\Python\Python310\;C:\Program Files\Java\jdk-17\bin;C:\Users\Linus\AppData\Local\Microsoft\WindowsApps;C:\Users\Linus\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Linus\Downloads\docto105;C:\texlive\2021\bin\win32;C:\msys64\mingw64\bin;C:\Users\Linus\AppData\Local\GitHubDesktop\bin;;C:\Program Files\Java\jdk-17\bin
+Check launcher:	C:\Program Files\Common Files\Oracle\Java\javapath\bin\javaw.exe (not found)
+Check launcher:	C:\Program Files (x86)\Common Files\Oracle\Java\javapath\bin\javaw.exe (not found)
+Check launcher:	C:\Program Files\Java\jdk-17\bin\javaw.exe (OK)
+Version string: 1.017.000 / 64-Bit (OK)
+Launcher:	C:\Program Files\Java\jdk-17\bin\javaw.exe
+Launcher args:	--add-exports=java.desktop/sun.swing=ALL-UNNAMED    --add-exports=java.desktop/sun.swing.table=ALL-UNNAMED    --add-exports=java.desktop/sun.swing.plaf.synth=ALL-UNNAMED    --add-opens=java.desktop/javax.swing.plaf.synth=ALL-UNNAMED    --add-opens=java.desktop/javax.swing.plaf.basic=ALL-UNNAMED    --add-opens=java.desktop/javax.swing=ALL-UNNAMED    --add-opens=java.desktop/javax.swing.tree=ALL-UNNAMED    --add-opens=java.desktop/java.awt.event=ALL-UNNAMED    --add-exports=java.desktop/sun.awt.shell=ALL-UNNAMED    --add-exports=java.base/sun.security.action=ALL-UNNAMED -jar "C:\Users\Linus\Dropbox\Programmieren\Schule\idea\MusicPlayer\MusicPlayer.exe"
+Args length:	658/32768 chars
+Exit code:	0
+
+
+Version:	3.50
+CmdLine:	C:\Users\Linus\Dropbox\Programmieren\Schule\idea\MusicPlayer\MusicPlayer.exe --l4j-debug
+JNI:		No
+WOW64:		Yes
+Working dir:	C:\Users\Linus\Dropbox\Programmieren\Schule\idea\MusicPlayer\.
+Requires JDK:	No
+Requires 64-Bit: No
+Java min ver:	
+Java max ver:	
+Substitute:	JAVA_HOME = 
+Substitute:	PATH = C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\Java\jdk-17\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\PuTTY\;C:\Program Files\Graphviz\bin;C:\Program Files\Git\cmd;C:\Program Files\Java\jre1.8.0_351\bin;C:\Program Files\Java\jdk-18.0.2;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\Linus\AppData\Local\Programs\Python\Python310\Scripts\;C:\Users\Linus\AppData\Local\Programs\Python\Python310\;C:\Program Files\Java\jdk-17\bin;C:\Users\Linus\AppData\Local\Microsoft\WindowsApps;C:\Users\Linus\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Linus\Downloads\docto105;C:\texlive\2021\bin\win32;C:\msys64\mingw64\bin;C:\Users\Linus\AppData\Local\GitHubDesktop\bin;;C:\Program Files\Java\jdk-17\bin
+JRE paths:	;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\Java\jdk-17\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\PuTTY\;C:\Program Files\Graphviz\bin;C:\Program Files\Git\cmd;C:\Program Files\Java\jre1.8.0_351\bin;C:\Program Files\Java\jdk-18.0.2;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\Linus\AppData\Local\Programs\Python\Python310\Scripts\;C:\Users\Linus\AppData\Local\Programs\Python\Python310\;C:\Program Files\Java\jdk-17\bin;C:\Users\Linus\AppData\Local\Microsoft\WindowsApps;C:\Users\Linus\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Linus\Downloads\docto105;C:\texlive\2021\bin\win32;C:\msys64\mingw64\bin;C:\Users\Linus\AppData\Local\GitHubDesktop\bin;;C:\Program Files\Java\jdk-17\bin
+Check launcher:	C:\Program Files\Common Files\Oracle\Java\javapath\bin\javaw.exe (not found)
+Check launcher:	C:\Program Files (x86)\Common Files\Oracle\Java\javapath\bin\javaw.exe (not found)
+Check launcher:	C:\Program Files\Java\jdk-17\bin\javaw.exe (OK)
+Version string: 1.017.000 / 64-Bit (OK)
+Launcher:	C:\Program Files\Java\jdk-17\bin\javaw.exe
+Launcher args:	--add-exports=java.desktop/sun.swing=ALL-UNNAMED    --add-exports=java.desktop/sun.swing.table=ALL-UNNAMED    --add-exports=java.desktop/sun.swing.plaf.synth=ALL-UNNAMED    --add-opens=java.desktop/javax.swing.plaf.synth=ALL-UNNAMED    --add-opens=java.desktop/javax.swing.plaf.basic=ALL-UNNAMED    --add-opens=java.desktop/javax.swing=ALL-UNNAMED    --add-opens=java.desktop/javax.swing.tree=ALL-UNNAMED    --add-opens=java.desktop/java.awt.event=ALL-UNNAMED    --add-exports=java.desktop/sun.awt.shell=ALL-UNNAMED    --add-exports=java.base/sun.security.action=ALL-UNNAMED -jar "C:\Users\Linus\Dropbox\Programmieren\Schule\idea\MusicPlayer\MusicPlayer.exe"
+Args length:	658/32768 chars
+Exit code:	0
+
+
+Version:	3.50
+CmdLine:	C:\Users\Linus\Dropbox\Programmieren\Schule\idea\MusicPlayer\MusicPlayer.exe --l4j-debug
+JNI:		No
+WOW64:		Yes
+Working dir:	C:\Users\Linus\Dropbox\Programmieren\Schule\idea\MusicPlayer\.
+Requires JDK:	No
+Requires 64-Bit: No
+Java min ver:	
+Java max ver:	
+Substitute:	JAVA_HOME = 
+Substitute:	PATH = C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\Java\jdk-17\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\PuTTY\;C:\Program Files\Graphviz\bin;C:\Program Files\Git\cmd;C:\Program Files\Java\jre1.8.0_351\bin;C:\Program Files\Java\jdk-18.0.2;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\Linus\AppData\Local\Programs\Python\Python310\Scripts\;C:\Users\Linus\AppData\Local\Programs\Python\Python310\;C:\Program Files\Java\jdk-17\bin;C:\Users\Linus\AppData\Local\Microsoft\WindowsApps;C:\Users\Linus\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Linus\Downloads\docto105;C:\texlive\2021\bin\win32;C:\msys64\mingw64\bin;C:\Users\Linus\AppData\Local\GitHubDesktop\bin;;C:\Program Files\Java\jdk-17\bin
+JRE paths:	;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\Java\jdk-17\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\PuTTY\;C:\Program Files\Graphviz\bin;C:\Program Files\Git\cmd;C:\Program Files\Java\jre1.8.0_351\bin;C:\Program Files\Java\jdk-18.0.2;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\Linus\AppData\Local\Programs\Python\Python310\Scripts\;C:\Users\Linus\AppData\Local\Programs\Python\Python310\;C:\Program Files\Java\jdk-17\bin;C:\Users\Linus\AppData\Local\Microsoft\WindowsApps;C:\Users\Linus\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Linus\Downloads\docto105;C:\texlive\2021\bin\win32;C:\msys64\mingw64\bin;C:\Users\Linus\AppData\Local\GitHubDesktop\bin;;C:\Program Files\Java\jdk-17\bin
+Check launcher:	C:\Program Files\Common Files\Oracle\Java\javapath\bin\javaw.exe (not found)
+Check launcher:	C:\Program Files (x86)\Common Files\Oracle\Java\javapath\bin\javaw.exe (not found)
+Check launcher:	C:\Program Files\Java\jdk-17\bin\javaw.exe (OK)
+Version string: 1.017.000 / 64-Bit (OK)
+Launcher:	C:\Program Files\Java\jdk-17\bin\javaw.exe
+Launcher args:	--add-exports=java.desktop/sun.swing=ALL-UNNAMED    --add-exports=java.desktop/sun.swing.table=ALL-UNNAMED    --add-exports=java.desktop/sun.swing.plaf.synth=ALL-UNNAMED    --add-opens=java.desktop/javax.swing.plaf.synth=ALL-UNNAMED    --add-opens=java.desktop/javax.swing.plaf.basic=ALL-UNNAMED    --add-opens=java.desktop/javax.swing=ALL-UNNAMED    --add-opens=java.desktop/javax.swing.tree=ALL-UNNAMED    --add-opens=java.desktop/java.awt.event=ALL-UNNAMED    --add-exports=java.desktop/sun.awt.shell=ALL-UNNAMED    --add-exports=java.base/sun.security.action=ALL-UNNAMED -jar "C:\Users\Linus\Dropbox\Programmieren\Schule\idea\MusicPlayer\MusicPlayer.exe"
+Args length:	658/32768 chars
+Exit code:	0
+
+
+Version:	3.50
+CmdLine:	C:\Users\Linus\Dropbox\Programmieren\Schule\idea\MusicPlayer\MusicPlayer.exe --l4j-debug
+JNI:		No
+WOW64:		Yes
+Working dir:	C:\Users\Linus\Dropbox\Programmieren\Schule\idea\MusicPlayer\.
+Requires JDK:	No
+Requires 64-Bit: No
+Java min ver:	
+Java max ver:	
+Substitute:	JAVA_HOME = 
+Substitute:	PATH = C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\Java\jdk-17\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\PuTTY\;C:\Program Files\Graphviz\bin;C:\Program Files\Git\cmd;C:\Program Files\Java\jre1.8.0_351\bin;C:\Program Files\Java\jdk-18.0.2;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\Linus\AppData\Local\Programs\Python\Python310\Scripts\;C:\Users\Linus\AppData\Local\Programs\Python\Python310\;C:\Program Files\Java\jdk-17\bin;C:\Users\Linus\AppData\Local\Microsoft\WindowsApps;C:\Users\Linus\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Linus\Downloads\docto105;C:\texlive\2021\bin\win32;C:\msys64\mingw64\bin;C:\Users\Linus\AppData\Local\GitHubDesktop\bin;;C:\Program Files\Java\jdk-17\bin
+JRE paths:	;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\Java\jdk-17\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\PuTTY\;C:\Program Files\Graphviz\bin;C:\Program Files\Git\cmd;C:\Program Files\Java\jre1.8.0_351\bin;C:\Program Files\Java\jdk-18.0.2;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\Linus\AppData\Local\Programs\Python\Python310\Scripts\;C:\Users\Linus\AppData\Local\Programs\Python\Python310\;C:\Program Files\Java\jdk-17\bin;C:\Users\Linus\AppData\Local\Microsoft\WindowsApps;C:\Users\Linus\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Linus\Downloads\docto105;C:\texlive\2021\bin\win32;C:\msys64\mingw64\bin;C:\Users\Linus\AppData\Local\GitHubDesktop\bin;;C:\Program Files\Java\jdk-17\bin
+Check launcher:	C:\Program Files\Common Files\Oracle\Java\javapath\bin\javaw.exe (not found)
+Check launcher:	C:\Program Files (x86)\Common Files\Oracle\Java\javapath\bin\javaw.exe (not found)
+Check launcher:	C:\Program Files\Java\jdk-17\bin\javaw.exe (OK)
+Version string: 1.017.000 / 64-Bit (OK)
+Launcher:	C:\Program Files\Java\jdk-17\bin\javaw.exe
+Launcher args:	--add-exports=java.desktop/sun.swing=ALL-UNNAMED    --add-exports=java.desktop/sun.swing.table=ALL-UNNAMED    --add-exports=java.desktop/sun.swing.plaf.synth=ALL-UNNAMED    --add-opens=java.desktop/javax.swing.plaf.synth=ALL-UNNAMED    --add-opens=java.desktop/javax.swing.plaf.basic=ALL-UNNAMED    --add-opens=java.desktop/javax.swing=ALL-UNNAMED    --add-opens=java.desktop/javax.swing.tree=ALL-UNNAMED    --add-opens=java.desktop/java.awt.event=ALL-UNNAMED    --add-exports=java.desktop/sun.awt.shell=ALL-UNNAMED    --add-exports=java.base/sun.security.action=ALL-UNNAMED -jar "C:\Users\Linus\Dropbox\Programmieren\Schule\idea\MusicPlayer\MusicPlayer.exe"
+Args length:	658/32768 chars
+Exit code:	0
