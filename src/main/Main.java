@@ -10,13 +10,17 @@ import java.text.ParseException;
 public class Main {
     private final Player player;
 
+
+
+
+
     public static void main(String[] args) throws UnsupportedLookAndFeelException, ParseException, LineUnavailableException {
-        Main main = new Main();
+        new Main();
     }
 
     public Main() throws ParseException, UnsupportedLookAndFeelException, LineUnavailableException {
         UIManager.setLookAndFeel(new SyntheticaDarkLookAndFeel());
-        JFrame gui = new MainWindow("Music-main.Player", this);
+        JFrame gui = new MainWindow("Music-Player", this);
         this.player = new Player();
 
         // DEBUG OPEN
