@@ -18,17 +18,5 @@ public class Main {
         //player.playSong(System.getProperty("user.dir")+"/audio/test.wav");
     }
 
-    public Player getPlayer(){
-        return player;
-    }
-
-
-
-
-
-
-
-
-
 
 }
