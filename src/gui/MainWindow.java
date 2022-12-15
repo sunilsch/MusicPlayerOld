@@ -1,3 +1,5 @@
+package gui;
+import main.Main;
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
@@ -33,7 +35,7 @@ public class MainWindow extends JFrame implements ActionListener {
     // Other
     private JProgressBar progressBar1;
 
-    // reference to Main object
+    // reference to main.Main object
     private final Main main;
 
     /**

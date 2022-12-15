@@ -1,4 +1,7 @@
+package main;
+
 import de.javasoft.synthetica.dark.SyntheticaDarkLookAndFeel;
+import gui.MainWindow;
 
 import javax.sound.sampled.LineUnavailableException;
 import javax.swing.*;
@@ -13,7 +16,7 @@ public class Main {
 
     public Main() throws ParseException, UnsupportedLookAndFeelException, LineUnavailableException {
         UIManager.setLookAndFeel(new SyntheticaDarkLookAndFeel());
-        JFrame gui = new MainWindow("Music-Player", this);
+        JFrame gui = new MainWindow("Music-main.Player", this);
         this.player = new Player();
 
         // DEBUG OPEN
