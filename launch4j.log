@@ -1,0 +1,281 @@
+
+
+Version:	3.50
+CmdLine:	C:\Users\sunil\Documents\GitHub\MusicPlayer\MusicPlayer.exe --l4j-debug
+JNI:		No
+WOW64:		Yes
+Working dir:	C:\Users\sunil\Documents\GitHub\MusicPlayer\.
+Requires JDK:	No
+Requires 64-Bit: No
+Java min ver:	
+Java max ver:	
+Substitute:	JAVA_HOME = 
+Substitute:	PATH = C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\texlive\2021\bin\win32;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Common Files\Autodesk Shared\;C:\mingw\bin\;C:\Program Files\PuTTY\;C:\Program Files (x86)\Vim\vim90;C:\Program Files\Graphviz\bin;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Users\sunil\AppData\Local\Programs\Python\Python310\Scripts\;C:\Users\sunil\AppData\Local\Programs\Python\Python310\;C:\Users\sunil\AppData\Local\Microsoft\WindowsApps;C:\Users\sunil\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\sunil\AppData\Local\Programs\Python\Python39\;C:\Users\sunil\AppData\Local\Programs\Python\Python319\Scripts\;C:\Users\sunil\AppData\Roaming\npm;C:\Users\sunil\AppData\Local\GitHubDesktop\bin;C:\Program Files\Java\jre1.8.0_351\bin
+JRE paths:	;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\texlive\2021\bin\win32;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Common Files\Autodesk Shared\;C:\mingw\bin\;C:\Program Files\PuTTY\;C:\Program Files (x86)\Vim\vim90;C:\Program Files\Graphviz\bin;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Users\sunil\AppData\Local\Programs\Python\Python310\Scripts\;C:\Users\sunil\AppData\Local\Programs\Python\Python310\;C:\Users\sunil\AppData\Local\Microsoft\WindowsApps;C:\Users\sunil\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\sunil\AppData\Local\Programs\Python\Python39\;C:\Users\sunil\AppData\Local\Programs\Python\Python319\Scripts\;C:\Users\sunil\AppData\Roaming\npm;C:\Users\sunil\AppData\Local\GitHubDesktop\bin;C:\Program Files\Java\jre1.8.0_351\bin
+Check launcher:	C:\Program Files\Common Files\Oracle\Java\javapath\bin\javaw.exe (not found)
+Check launcher:	C:\Program Files (x86)\Common Files\Oracle\Java\javapath\bin\javaw.exe (not found)
+Check launcher:	C:\WINDOWS\system32\bin\javaw.exe (not found)
+Check launcher:	C:\WINDOWS\bin\javaw.exe (not found)
+Check launcher:	C:\WINDOWS\System32\Wbem\bin\javaw.exe (not found)
+Check launcher:	C:\WINDOWS\System32\WindowsPowerShell\v1.0\bin\javaw.exe (not found)
+Check launcher:	C:\WINDOWS\System32\OpenSSH\bin\javaw.exe (not found)
+Check launcher:	C:\texlive\2021\bin\win32\bin\javaw.exe (not found)
+Check launcher:	C:\Program Files\dotnet\bin\javaw.exe (not found)
+Check launcher:	C:\Program Files\Microsoft SQL Server\120\Tools\Binn\bin\javaw.exe (not found)
+Check launcher:	C:\Program Files\Common Files\Autodesk Shared\bin\javaw.exe (not found)
+Check launcher:	C:\mingw\bin\bin\javaw.exe (not found)
+Check launcher:	C:\Program Files\PuTTY\bin\javaw.exe (not found)
+Check launcher:	C:\Program Files (x86)\Vim\vim90\bin\javaw.exe (not found)
+Check launcher:	C:\Program Files\Graphviz\bin\javaw.exe (not found)
+Check launcher:	C:\Program Files\nodejs\bin\javaw.exe (not found)
+Check launcher:	C:\Program Files\Git\cmd\bin\javaw.exe (not found)
+Check launcher:	C:\Users\sunil\AppData\Local\Programs\Python\Python310\Scripts\bin\javaw.exe (not found)
+Check launcher:	C:\Users\sunil\AppData\Local\Programs\Python\Python310\bin\javaw.exe (not found)
+Check launcher:	C:\Users\sunil\AppData\Local\Microsoft\WindowsApps\bin\javaw.exe (not found)
+Check launcher:	C:\Users\sunil\AppData\Local\Programs\Microsoft VS Code\bin\javaw.exe (not found)
+Check launcher:	C:\Users\sunil\AppData\Local\Programs\Python\Python39\bin\javaw.exe (not found)
+Check launcher:	C:\Users\sunil\AppData\Local\Programs\Python\Python319\Scripts\bin\javaw.exe (not found)
+Check launcher:	C:\Users\sunil\AppData\Roaming\npm\bin\javaw.exe (not found)
+Check launcher:	C:\Users\sunil\AppData\Local\GitHubDesktop\bin\javaw.exe (not found)
+Check launcher:	C:\Program Files\Java\jre1.8.0_351\bin\javaw.exe (OK)
+Version string: 1.008.000_351 / 64-Bit (OK)
+Launcher:	C:\Program Files\Java\jre1.8.0_351\bin\javaw.exe
+Launcher args:	--add-exports=java.desktop/sun.swing=ALL-UNNAMED    --add-exports=java.desktop/sun.swing.table=ALL-UNNAMED    --add-exports=java.desktop/sun.swing.plaf.synth=ALL-UNNAMED    --add-opens=java.desktop/javax.swing.plaf.synth=ALL-UNNAMED    --add-opens=java.desktop/javax.swing.plaf.basic=ALL-UNNAMED    --add-opens=java.desktop/javax.swing=ALL-UNNAMED    --add-opens=java.desktop/javax.swing.tree=ALL-UNNAMED    --add-opens=java.desktop/java.awt.event=ALL-UNNAMED    --add-exports=java.desktop/sun.awt.shell=ALL-UNNAMED    --add-exports=java.base/sun.security.action=ALL-UNNAMED -jar "C:\Users\sunil\Documents\GitHub\MusicPlayer\MusicPlayer.exe"
+Args length:	641/32768 chars
+Exit code:	0
+
+
+Version:	3.50
+CmdLine:	C:\Users\sunil\Documents\GitHub\MusicPlayer\MusicPlayer.exe --l4j-debug
+JNI:		No
+WOW64:		Yes
+Working dir:	C:\Users\sunil\Documents\GitHub\MusicPlayer\.
+Requires JDK:	No
+Requires 64-Bit: No
+Java min ver:	
+Java max ver:	
+Substitute:	JAVA_HOME = 
+Substitute:	PATH = C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\texlive\2021\bin\win32;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Common Files\Autodesk Shared\;C:\mingw\bin\;C:\Program Files\PuTTY\;C:\Program Files (x86)\Vim\vim90;C:\Program Files\Graphviz\bin;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Users\sunil\AppData\Local\Programs\Python\Python310\Scripts\;C:\Users\sunil\AppData\Local\Programs\Python\Python310\;C:\Users\sunil\AppData\Local\Microsoft\WindowsApps;C:\Users\sunil\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\sunil\AppData\Local\Programs\Python\Python39\;C:\Users\sunil\AppData\Local\Programs\Python\Python319\Scripts\;C:\Users\sunil\AppData\Roaming\npm;C:\Users\sunil\AppData\Local\GitHubDesktop\bin;C:\Program Files\Java\jre1.8.0_351\bin
+JRE paths:	;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\texlive\2021\bin\win32;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Common Files\Autodesk Shared\;C:\mingw\bin\;C:\Program Files\PuTTY\;C:\Program Files (x86)\Vim\vim90;C:\Program Files\Graphviz\bin;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Users\sunil\AppData\Local\Programs\Python\Python310\Scripts\;C:\Users\sunil\AppData\Local\Programs\Python\Python310\;C:\Users\sunil\AppData\Local\Microsoft\WindowsApps;C:\Users\sunil\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\sunil\AppData\Local\Programs\Python\Python39\;C:\Users\sunil\AppData\Local\Programs\Python\Python319\Scripts\;C:\Users\sunil\AppData\Roaming\npm;C:\Users\sunil\AppData\Local\GitHubDesktop\bin;C:\Program Files\Java\jre1.8.0_351\bin
+Check launcher:	C:\Program Files\Common Files\Oracle\Java\javapath\bin\javaw.exe (not found)
+Check launcher:	C:\Program Files (x86)\Common Files\Oracle\Java\javapath\bin\javaw.exe (not found)
+Check launcher:	C:\WINDOWS\system32\bin\javaw.exe (not found)
+Check launcher:	C:\WINDOWS\bin\javaw.exe (not found)
+Check launcher:	C:\WINDOWS\System32\Wbem\bin\javaw.exe (not found)
+Check launcher:	C:\WINDOWS\System32\WindowsPowerShell\v1.0\bin\javaw.exe (not found)
+Check launcher:	C:\WINDOWS\System32\OpenSSH\bin\javaw.exe (not found)
+Check launcher:	C:\texlive\2021\bin\win32\bin\javaw.exe (not found)
+Check launcher:	C:\Program Files\dotnet\bin\javaw.exe (not found)
+Check launcher:	C:\Program Files\Microsoft SQL Server\120\Tools\Binn\bin\javaw.exe (not found)
+Check launcher:	C:\Program Files\Common Files\Autodesk Shared\bin\javaw.exe (not found)
+Check launcher:	C:\mingw\bin\bin\javaw.exe (not found)
+Check launcher:	C:\Program Files\PuTTY\bin\javaw.exe (not found)
+Check launcher:	C:\Program Files (x86)\Vim\vim90\bin\javaw.exe (not found)
+Check launcher:	C:\Program Files\Graphviz\bin\javaw.exe (not found)
+Check launcher:	C:\Program Files\nodejs\bin\javaw.exe (not found)
+Check launcher:	C:\Program Files\Git\cmd\bin\javaw.exe (not found)
+Check launcher:	C:\Users\sunil\AppData\Local\Programs\Python\Python310\Scripts\bin\javaw.exe (not found)
+Check launcher:	C:\Users\sunil\AppData\Local\Programs\Python\Python310\bin\javaw.exe (not found)
+Check launcher:	C:\Users\sunil\AppData\Local\Microsoft\WindowsApps\bin\javaw.exe (not found)
+Check launcher:	C:\Users\sunil\AppData\Local\Programs\Microsoft VS Code\bin\javaw.exe (not found)
+Check launcher:	C:\Users\sunil\AppData\Local\Programs\Python\Python39\bin\javaw.exe (not found)
+Check launcher:	C:\Users\sunil\AppData\Local\Programs\Python\Python319\Scripts\bin\javaw.exe (not found)
+Check launcher:	C:\Users\sunil\AppData\Roaming\npm\bin\javaw.exe (not found)
+Check launcher:	C:\Users\sunil\AppData\Local\GitHubDesktop\bin\javaw.exe (not found)
+Check launcher:	C:\Program Files\Java\jre1.8.0_351\bin\javaw.exe (OK)
+Version string: 1.008.000_351 / 64-Bit (OK)
+Launcher:	C:\Program Files\Java\jre1.8.0_351\bin\javaw.exe
+Launcher args:	--add-exports=java.desktop/sun.swing=ALL-UNNAMED    --add-exports=java.desktop/sun.swing.table=ALL-UNNAMED    --add-exports=java.desktop/sun.swing.plaf.synth=ALL-UNNAMED    --add-opens=java.desktop/javax.swing.plaf.synth=ALL-UNNAMED    --add-opens=java.desktop/javax.swing.plaf.basic=ALL-UNNAMED    --add-opens=java.desktop/javax.swing=ALL-UNNAMED    --add-opens=java.desktop/javax.swing.tree=ALL-UNNAMED    --add-opens=java.desktop/java.awt.event=ALL-UNNAMED    --add-exports=java.desktop/sun.awt.shell=ALL-UNNAMED    --add-exports=java.base/sun.security.action=ALL-UNNAMED -jar "C:\Users\sunil\Documents\GitHub\MusicPlayer\MusicPlayer.exe"
+Args length:	641/32768 chars
+Exit code:	0
+
+
+Version:	3.50
+CmdLine:	C:\Users\sunil\Documents\GitHub\MusicPlayer\MusicPlayer.exe --l4j-debug
+JNI:		No
+WOW64:		Yes
+Working dir:	C:\Users\sunil\Documents\GitHub\MusicPlayer\.
+Requires JDK:	No
+Requires 64-Bit: No
+Java min ver:	
+Java max ver:	
+Substitute:	JAVA_HOME = 
+Substitute:	PATH = C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\texlive\2021\bin\win32;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Common Files\Autodesk Shared\;C:\mingw\bin\;C:\Program Files\PuTTY\;C:\Program Files (x86)\Vim\vim90;C:\Program Files\Graphviz\bin;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Users\sunil\AppData\Local\Programs\Python\Python310\Scripts\;C:\Users\sunil\AppData\Local\Programs\Python\Python310\;C:\Users\sunil\AppData\Local\Microsoft\WindowsApps;C:\Users\sunil\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\sunil\AppData\Local\Programs\Python\Python39\;C:\Users\sunil\AppData\Local\Programs\Python\Python319\Scripts\;C:\Users\sunil\AppData\Roaming\npm;C:\Users\sunil\AppData\Local\GitHubDesktop\bin;C:\Program Files\Java\jre1.8.0_351\bin
+JRE paths:	;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\texlive\2021\bin\win32;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Common Files\Autodesk Shared\;C:\mingw\bin\;C:\Program Files\PuTTY\;C:\Program Files (x86)\Vim\vim90;C:\Program Files\Graphviz\bin;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Users\sunil\AppData\Local\Programs\Python\Python310\Scripts\;C:\Users\sunil\AppData\Local\Programs\Python\Python310\;C:\Users\sunil\AppData\Local\Microsoft\WindowsApps;C:\Users\sunil\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\sunil\AppData\Local\Programs\Python\Python39\;C:\Users\sunil\AppData\Local\Programs\Python\Python319\Scripts\;C:\Users\sunil\AppData\Roaming\npm;C:\Users\sunil\AppData\Local\GitHubDesktop\bin;C:\Program Files\Java\jre1.8.0_351\bin
+Check launcher:	C:\Program Files\Common Files\Oracle\Java\javapath\bin\javaw.exe (not found)
+Check launcher:	C:\Program Files (x86)\Common Files\Oracle\Java\javapath\bin\javaw.exe (not found)
+Check launcher:	C:\WINDOWS\system32\bin\javaw.exe (not found)
+Check launcher:	C:\WINDOWS\bin\javaw.exe (not found)
+Check launcher:	C:\WINDOWS\System32\Wbem\bin\javaw.exe (not found)
+Check launcher:	C:\WINDOWS\System32\WindowsPowerShell\v1.0\bin\javaw.exe (not found)
+Check launcher:	C:\WINDOWS\System32\OpenSSH\bin\javaw.exe (not found)
+Check launcher:	C:\texlive\2021\bin\win32\bin\javaw.exe (not found)
+Check launcher:	C:\Program Files\dotnet\bin\javaw.exe (not found)
+Check launcher:	C:\Program Files\Microsoft SQL Server\120\Tools\Binn\bin\javaw.exe (not found)
+Check launcher:	C:\Program Files\Common Files\Autodesk Shared\bin\javaw.exe (not found)
+Check launcher:	C:\mingw\bin\bin\javaw.exe (not found)
+Check launcher:	C:\Program Files\PuTTY\bin\javaw.exe (not found)
+Check launcher:	C:\Program Files (x86)\Vim\vim90\bin\javaw.exe (not found)
+Check launcher:	C:\Program Files\Graphviz\bin\javaw.exe (not found)
+Check launcher:	C:\Program Files\nodejs\bin\javaw.exe (not found)
+Check launcher:	C:\Program Files\Git\cmd\bin\javaw.exe (not found)
+Check launcher:	C:\Users\sunil\AppData\Local\Programs\Python\Python310\Scripts\bin\javaw.exe (not found)
+Check launcher:	C:\Users\sunil\AppData\Local\Programs\Python\Python310\bin\javaw.exe (not found)
+Check launcher:	C:\Users\sunil\AppData\Local\Microsoft\WindowsApps\bin\javaw.exe (not found)
+Check launcher:	C:\Users\sunil\AppData\Local\Programs\Microsoft VS Code\bin\javaw.exe (not found)
+Check launcher:	C:\Users\sunil\AppData\Local\Programs\Python\Python39\bin\javaw.exe (not found)
+Check launcher:	C:\Users\sunil\AppData\Local\Programs\Python\Python319\Scripts\bin\javaw.exe (not found)
+Check launcher:	C:\Users\sunil\AppData\Roaming\npm\bin\javaw.exe (not found)
+Check launcher:	C:\Users\sunil\AppData\Local\GitHubDesktop\bin\javaw.exe (not found)
+Check launcher:	C:\Program Files\Java\jre1.8.0_351\bin\javaw.exe (OK)
+Version string: 1.008.000_351 / 64-Bit (OK)
+Launcher:	C:\Program Files\Java\jre1.8.0_351\bin\javaw.exe
+Launcher args:	--add-exports=java.desktop/sun.swing=ALL-UNNAMED    --add-exports=java.desktop/sun.swing.table=ALL-UNNAMED    --add-exports=java.desktop/sun.swing.plaf.synth=ALL-UNNAMED    --add-opens=java.desktop/javax.swing.plaf.synth=ALL-UNNAMED    --add-opens=java.desktop/javax.swing.plaf.basic=ALL-UNNAMED    --add-opens=java.desktop/javax.swing=ALL-UNNAMED    --add-opens=java.desktop/javax.swing.tree=ALL-UNNAMED    --add-opens=java.desktop/java.awt.event=ALL-UNNAMED    --add-exports=java.desktop/sun.awt.shell=ALL-UNNAMED    --add-exports=java.base/sun.security.action=ALL-UNNAMED -jar "C:\Users\sunil\Documents\GitHub\MusicPlayer\MusicPlayer.exe"
+Args length:	641/32768 chars
+Exit code:	0
+
+
+Version:	3.50
+CmdLine:	C:\Users\sunil\Documents\GitHub\MusicPlayer\MusicPlayer.exe --l4j-debug
+JNI:		No
+WOW64:		Yes
+Working dir:	C:\Users\sunil\Documents\GitHub\MusicPlayer\.
+Requires JDK:	No
+Requires 64-Bit: No
+Java min ver:	
+Java max ver:	
+Substitute:	JAVA_HOME = 
+Substitute:	PATH = C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\texlive\2021\bin\win32;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Common Files\Autodesk Shared\;C:\mingw\bin\;C:\Program Files\PuTTY\;C:\Program Files (x86)\Vim\vim90;C:\Program Files\Graphviz\bin;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Program Files\Java\jre1.8.0_351\bin;C:\Users\sunil\AppData\Local\Programs\Python\Python310\Scripts\;C:\Users\sunil\AppData\Local\Programs\Python\Python310\;C:\Users\sunil\AppData\Local\Microsoft\WindowsApps;C:\Users\sunil\AppData\Local\Programs\Microsoft VS Code\bin;C:\texlive\2021\bin\win32;C:\Users\sunil\AppData\Local\Programs\Python\Python39\;C:\Users\sunil\AppData\Local\Programs\Python\Python319\Scripts\;C:\Users\sunil\AppData\Roaming\npm;C:\Users\sunil\AppData\Local\GitHubDesktop\bin;;C:\Program Files\Java\jre1.8.0_351\bin
+JRE paths:	;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\texlive\2021\bin\win32;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Common Files\Autodesk Shared\;C:\mingw\bin\;C:\Program Files\PuTTY\;C:\Program Files (x86)\Vim\vim90;C:\Program Files\Graphviz\bin;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Program Files\Java\jre1.8.0_351\bin;C:\Users\sunil\AppData\Local\Programs\Python\Python310\Scripts\;C:\Users\sunil\AppData\Local\Programs\Python\Python310\;C:\Users\sunil\AppData\Local\Microsoft\WindowsApps;C:\Users\sunil\AppData\Local\Programs\Microsoft VS Code\bin;C:\texlive\2021\bin\win32;C:\Users\sunil\AppData\Local\Programs\Python\Python39\;C:\Users\sunil\AppData\Local\Programs\Python\Python319\Scripts\;C:\Users\sunil\AppData\Roaming\npm;C:\Users\sunil\AppData\Local\GitHubDesktop\bin;;C:\Program Files\Java\jre1.8.0_351\bin
+Check launcher:	C:\Program Files\Common Files\Oracle\Java\javapath\bin\javaw.exe (not found)
+Check launcher:	C:\Program Files (x86)\Common Files\Oracle\Java\javapath\bin\javaw.exe (not found)
+Check launcher:	C:\WINDOWS\system32\bin\javaw.exe (not found)
+Check launcher:	C:\WINDOWS\bin\javaw.exe (not found)
+Check launcher:	C:\WINDOWS\System32\Wbem\bin\javaw.exe (not found)
+Check launcher:	C:\WINDOWS\System32\WindowsPowerShell\v1.0\bin\javaw.exe (not found)
+Check launcher:	C:\WINDOWS\System32\OpenSSH\bin\javaw.exe (not found)
+Check launcher:	C:\texlive\2021\bin\win32\bin\javaw.exe (not found)
+Check launcher:	C:\Program Files\dotnet\bin\javaw.exe (not found)
+Check launcher:	C:\Program Files\Microsoft SQL Server\120\Tools\Binn\bin\javaw.exe (not found)
+Check launcher:	C:\Program Files\Common Files\Autodesk Shared\bin\javaw.exe (not found)
+Check launcher:	C:\mingw\bin\bin\javaw.exe (not found)
+Check launcher:	C:\Program Files\PuTTY\bin\javaw.exe (not found)
+Check launcher:	C:\Program Files (x86)\Vim\vim90\bin\javaw.exe (not found)
+Check launcher:	C:\Program Files\Graphviz\bin\javaw.exe (not found)
+Check launcher:	C:\Program Files\nodejs\bin\javaw.exe (not found)
+Check launcher:	C:\Program Files\Git\cmd\bin\javaw.exe (not found)
+Check launcher:	C:\Program Files\Java\jre1.8.0_351\bin\javaw.exe (OK)
+Version string: 1.008.000_351 / 64-Bit (OK)
+Launcher:	C:\Program Files\Java\jre1.8.0_351\bin\javaw.exe
+Launcher args:	--add-exports=java.desktop/sun.swing=ALL-UNNAMED    --add-exports=java.desktop/sun.swing.table=ALL-UNNAMED    --add-exports=java.desktop/sun.swing.plaf.synth=ALL-UNNAMED    --add-opens=java.desktop/javax.swing.plaf.synth=ALL-UNNAMED    --add-opens=java.desktop/javax.swing.plaf.basic=ALL-UNNAMED    --add-opens=java.desktop/javax.swing=ALL-UNNAMED    --add-opens=java.desktop/javax.swing.tree=ALL-UNNAMED    --add-opens=java.desktop/java.awt.event=ALL-UNNAMED    --add-exports=java.desktop/sun.awt.shell=ALL-UNNAMED    --add-exports=java.base/sun.security.action=ALL-UNNAMED -Xmx1024M -jar "C:\Users\sunil\Documents\GitHub\MusicPlayer\MusicPlayer.exe"
+Args length:	651/32768 chars
+Exit code:	0
+
+
+Version:	3.50
+CmdLine:	C:\Users\sunil\Documents\GitHub\MusicPlayer\MusicPlayer.exe --l4j-debug
+JNI:		No
+WOW64:		Yes
+Working dir:	C:\Users\sunil\Documents\GitHub\MusicPlayer\.
+Requires JDK:	No
+Requires 64-Bit: No
+Java min ver:	
+Java max ver:	
+Substitute:	JAVA_HOME = 
+Substitute:	PATH = C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\texlive\2021\bin\win32;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Common Files\Autodesk Shared\;C:\mingw\bin\;C:\Program Files\PuTTY\;C:\Program Files (x86)\Vim\vim90;C:\Program Files\Graphviz\bin;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Program Files\Java\jre1.8.0_351\bin;C:\Users\sunil\AppData\Local\Programs\Python\Python310\Scripts\;C:\Users\sunil\AppData\Local\Programs\Python\Python310\;C:\Users\sunil\AppData\Local\Microsoft\WindowsApps;C:\Users\sunil\AppData\Local\Programs\Microsoft VS Code\bin;C:\texlive\2021\bin\win32;C:\Users\sunil\AppData\Local\Programs\Python\Python39\;C:\Users\sunil\AppData\Local\Programs\Python\Python319\Scripts\;C:\Users\sunil\AppData\Roaming\npm;C:\Users\sunil\AppData\Local\GitHubDesktop\bin;;C:\Program Files\Java\jre1.8.0_351\bin
+JRE paths:	;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\texlive\2021\bin\win32;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Common Files\Autodesk Shared\;C:\mingw\bin\;C:\Program Files\PuTTY\;C:\Program Files (x86)\Vim\vim90;C:\Program Files\Graphviz\bin;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Program Files\Java\jre1.8.0_351\bin;C:\Users\sunil\AppData\Local\Programs\Python\Python310\Scripts\;C:\Users\sunil\AppData\Local\Programs\Python\Python310\;C:\Users\sunil\AppData\Local\Microsoft\WindowsApps;C:\Users\sunil\AppData\Local\Programs\Microsoft VS Code\bin;C:\texlive\2021\bin\win32;C:\Users\sunil\AppData\Local\Programs\Python\Python39\;C:\Users\sunil\AppData\Local\Programs\Python\Python319\Scripts\;C:\Users\sunil\AppData\Roaming\npm;C:\Users\sunil\AppData\Local\GitHubDesktop\bin;;C:\Program Files\Java\jre1.8.0_351\bin
+Check launcher:	C:\Program Files\Common Files\Oracle\Java\javapath\bin\javaw.exe (not found)
+Check launcher:	C:\Program Files (x86)\Common Files\Oracle\Java\javapath\bin\javaw.exe (not found)
+Check launcher:	C:\WINDOWS\system32\bin\javaw.exe (not found)
+Check launcher:	C:\WINDOWS\bin\javaw.exe (not found)
+Check launcher:	C:\WINDOWS\System32\Wbem\bin\javaw.exe (not found)
+Check launcher:	C:\WINDOWS\System32\WindowsPowerShell\v1.0\bin\javaw.exe (not found)
+Check launcher:	C:\WINDOWS\System32\OpenSSH\bin\javaw.exe (not found)
+Check launcher:	C:\texlive\2021\bin\win32\bin\javaw.exe (not found)
+Check launcher:	C:\Program Files\dotnet\bin\javaw.exe (not found)
+Check launcher:	C:\Program Files\Microsoft SQL Server\120\Tools\Binn\bin\javaw.exe (not found)
+Check launcher:	C:\Program Files\Common Files\Autodesk Shared\bin\javaw.exe (not found)
+Check launcher:	C:\mingw\bin\bin\javaw.exe (not found)
+Check launcher:	C:\Program Files\PuTTY\bin\javaw.exe (not found)
+Check launcher:	C:\Program Files (x86)\Vim\vim90\bin\javaw.exe (not found)
+Check launcher:	C:\Program Files\Graphviz\bin\javaw.exe (not found)
+Check launcher:	C:\Program Files\nodejs\bin\javaw.exe (not found)
+Check launcher:	C:\Program Files\Git\cmd\bin\javaw.exe (not found)
+Check launcher:	C:\Program Files\Java\jre1.8.0_351\bin\javaw.exe (OK)
+Version string: 1.008.000_351 / 64-Bit (OK)
+Launcher:	C:\Program Files\Java\jre1.8.0_351\bin\javaw.exe
+Launcher args:	--add-exports=java.desktop/sun.swing=ALL-UNNAMED    --add-exports=java.desktop/sun.swing.table=ALL-UNNAMED    --add-exports=java.desktop/sun.swing.plaf.synth=ALL-UNNAMED    --add-opens=java.desktop/javax.swing.plaf.synth=ALL-UNNAMED    --add-opens=java.desktop/javax.swing.plaf.basic=ALL-UNNAMED    --add-opens=java.desktop/javax.swing=ALL-UNNAMED    --add-opens=java.desktop/javax.swing.tree=ALL-UNNAMED    --add-opens=java.desktop/java.awt.event=ALL-UNNAMED    --add-exports=java.desktop/sun.awt.shell=ALL-UNNAMED    --add-exports=java.base/sun.security.action=ALL-UNNAMED -jar "C:\Users\sunil\Documents\GitHub\MusicPlayer\MusicPlayer.exe"
+Args length:	641/32768 chars
+Exit code:	0
+
+
+Version:	3.50
+CmdLine:	C:\Users\sunil\Documents\GitHub\MusicPlayer\MusicPlayer.exe --l4j-debug
+JNI:		No
+WOW64:		Yes
+Working dir:	C:\Users\sunil\Documents\GitHub\MusicPlayer\.
+Requires JDK:	No
+Requires 64-Bit: No
+Java min ver:	
+Java max ver:	
+Substitute:	JAVA_HOME = 
+Substitute:	PATH = C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\texlive\2021\bin\win32;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Common Files\Autodesk Shared\;C:\mingw\bin\;C:\Program Files\PuTTY\;C:\Program Files (x86)\Vim\vim90;C:\Program Files\Graphviz\bin;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Program Files\Java\jre1.8.0_351\bin;C:\Users\sunil\AppData\Local\Programs\Python\Python310\Scripts\;C:\Users\sunil\AppData\Local\Programs\Python\Python310\;C:\Users\sunil\AppData\Local\Microsoft\WindowsApps;C:\Users\sunil\AppData\Local\Programs\Microsoft VS Code\bin;C:\texlive\2021\bin\win32;C:\Users\sunil\AppData\Local\Programs\Python\Python39\;C:\Users\sunil\AppData\Local\Programs\Python\Python319\Scripts\;C:\Users\sunil\AppData\Roaming\npm;C:\Users\sunil\AppData\Local\GitHubDesktop\bin;;C:\Program Files\Java\jre1.8.0_351\bin
+JRE paths:	;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\texlive\2021\bin\win32;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Common Files\Autodesk Shared\;C:\mingw\bin\;C:\Program Files\PuTTY\;C:\Program Files (x86)\Vim\vim90;C:\Program Files\Graphviz\bin;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Program Files\Java\jre1.8.0_351\bin;C:\Users\sunil\AppData\Local\Programs\Python\Python310\Scripts\;C:\Users\sunil\AppData\Local\Programs\Python\Python310\;C:\Users\sunil\AppData\Local\Microsoft\WindowsApps;C:\Users\sunil\AppData\Local\Programs\Microsoft VS Code\bin;C:\texlive\2021\bin\win32;C:\Users\sunil\AppData\Local\Programs\Python\Python39\;C:\Users\sunil\AppData\Local\Programs\Python\Python319\Scripts\;C:\Users\sunil\AppData\Roaming\npm;C:\Users\sunil\AppData\Local\GitHubDesktop\bin;;C:\Program Files\Java\jre1.8.0_351\bin
+Check launcher:	C:\Program Files\Common Files\Oracle\Java\javapath\bin\javaw.exe (not found)
+Check launcher:	C:\Program Files (x86)\Common Files\Oracle\Java\javapath\bin\javaw.exe (not found)
+Check launcher:	C:\WINDOWS\system32\bin\javaw.exe (not found)
+Check launcher:	C:\WINDOWS\bin\javaw.exe (not found)
+Check launcher:	C:\WINDOWS\System32\Wbem\bin\javaw.exe (not found)
+Check launcher:	C:\WINDOWS\System32\WindowsPowerShell\v1.0\bin\javaw.exe (not found)
+Check launcher:	C:\WINDOWS\System32\OpenSSH\bin\javaw.exe (not found)
+Check launcher:	C:\texlive\2021\bin\win32\bin\javaw.exe (not found)
+Check launcher:	C:\Program Files\dotnet\bin\javaw.exe (not found)
+Check launcher:	C:\Program Files\Microsoft SQL Server\120\Tools\Binn\bin\javaw.exe (not found)
+Check launcher:	C:\Program Files\Common Files\Autodesk Shared\bin\javaw.exe (not found)
+Check launcher:	C:\mingw\bin\bin\javaw.exe (not found)
+Check launcher:	C:\Program Files\PuTTY\bin\javaw.exe (not found)
+Check launcher:	C:\Program Files (x86)\Vim\vim90\bin\javaw.exe (not found)
+Check launcher:	C:\Program Files\Graphviz\bin\javaw.exe (not found)
+Check launcher:	C:\Program Files\nodejs\bin\javaw.exe (not found)
+Check launcher:	C:\Program Files\Git\cmd\bin\javaw.exe (not found)
+Check launcher:	C:\Program Files\Java\jre1.8.0_351\bin\javaw.exe (OK)
+Version string: 1.008.000_351 / 64-Bit (OK)
+Launcher:	C:\Program Files\Java\jre1.8.0_351\bin\javaw.exe
+Launcher args:	--add-exports=java.desktop/sun.swing=ALL-UNNAMED    --add-exports=java.desktop/sun.swing.table=ALL-UNNAMED    --add-exports=java.desktop/sun.swing.plaf.synth=ALL-UNNAMED    --add-opens=java.desktop/javax.swing.plaf.synth=ALL-UNNAMED    --add-opens=java.desktop/javax.swing.plaf.basic=ALL-UNNAMED    --add-opens=java.desktop/javax.swing=ALL-UNNAMED    --add-opens=java.desktop/javax.swing.tree=ALL-UNNAMED    --add-opens=java.desktop/java.awt.event=ALL-UNNAMED    --add-exports=java.desktop/sun.awt.shell=ALL-UNNAMED    --add-exports=java.base/sun.security.action=ALL-UNNAMED -jar "C:\Users\sunil\Documents\GitHub\MusicPlayer\MusicPlayer.exe"
+Args length:	641/32768 chars
+Exit code:	0
+
+
+Version:	3.50
+CmdLine:	C:\Users\sunil\Documents\GitHub\MusicPlayer\MusicPlayer.exe --l4j-debug
+JNI:		No
+WOW64:		Yes
+Working dir:	C:\Users\sunil\Documents\GitHub\MusicPlayer\.
+Requires JDK:	No
+Requires 64-Bit: No
+Java min ver:	
+Java max ver:	
+Substitute:	JAVA_HOME = 
+Substitute:	PATH = C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\texlive\2021\bin\win32;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Common Files\Autodesk Shared\;C:\mingw\bin\;C:\Program Files\PuTTY\;C:\Program Files (x86)\Vim\vim90;C:\Program Files\Graphviz\bin;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Program Files\Java\jre1.8.0_351\bin;C:\Users\sunil\AppData\Local\Programs\Python\Python310\Scripts\;C:\Users\sunil\AppData\Local\Programs\Python\Python310\;C:\Users\sunil\AppData\Local\Microsoft\WindowsApps;C:\Users\sunil\AppData\Local\Programs\Microsoft VS Code\bin;C:\texlive\2021\bin\win32;C:\Users\sunil\AppData\Local\Programs\Python\Python39\;C:\Users\sunil\AppData\Local\Programs\Python\Python319\Scripts\;C:\Users\sunil\AppData\Roaming\npm;C:\Users\sunil\AppData\Local\GitHubDesktop\bin;;C:\Program Files\Java\jre1.8.0_351\bin
+JRE paths:	;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\texlive\2021\bin\win32;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Common Files\Autodesk Shared\;C:\mingw\bin\;C:\Program Files\PuTTY\;C:\Program Files (x86)\Vim\vim90;C:\Program Files\Graphviz\bin;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Program Files\Java\jre1.8.0_351\bin;C:\Users\sunil\AppData\Local\Programs\Python\Python310\Scripts\;C:\Users\sunil\AppData\Local\Programs\Python\Python310\;C:\Users\sunil\AppData\Local\Microsoft\WindowsApps;C:\Users\sunil\AppData\Local\Programs\Microsoft VS Code\bin;C:\texlive\2021\bin\win32;C:\Users\sunil\AppData\Local\Programs\Python\Python39\;C:\Users\sunil\AppData\Local\Programs\Python\Python319\Scripts\;C:\Users\sunil\AppData\Roaming\npm;C:\Users\sunil\AppData\Local\GitHubDesktop\bin;;C:\Program Files\Java\jre1.8.0_351\bin
+Check launcher:	C:\Program Files\Common Files\Oracle\Java\javapath\bin\javaw.exe (not found)
+Check launcher:	C:\Program Files (x86)\Common Files\Oracle\Java\javapath\bin\javaw.exe (not found)
+Check launcher:	C:\WINDOWS\system32\bin\javaw.exe (not found)
+Check launcher:	C:\WINDOWS\bin\javaw.exe (not found)
+Check launcher:	C:\WINDOWS\System32\Wbem\bin\javaw.exe (not found)
+Check launcher:	C:\WINDOWS\System32\WindowsPowerShell\v1.0\bin\javaw.exe (not found)
+Check launcher:	C:\WINDOWS\System32\OpenSSH\bin\javaw.exe (not found)
+Check launcher:	C:\texlive\2021\bin\win32\bin\javaw.exe (not found)
+Check launcher:	C:\Program Files\dotnet\bin\javaw.exe (not found)
+Check launcher:	C:\Program Files\Microsoft SQL Server\120\Tools\Binn\bin\javaw.exe (not found)
+Check launcher:	C:\Program Files\Common Files\Autodesk Shared\bin\javaw.exe (not found)
+Check launcher:	C:\mingw\bin\bin\javaw.exe (not found)
+Check launcher:	C:\Program Files\PuTTY\bin\javaw.exe (not found)
+Check launcher:	C:\Program Files (x86)\Vim\vim90\bin\javaw.exe (not found)
+Check launcher:	C:\Program Files\Graphviz\bin\javaw.exe (not found)
+Check launcher:	C:\Program Files\nodejs\bin\javaw.exe (not found)
+Check launcher:	C:\Program Files\Git\cmd\bin\javaw.exe (not found)
+Check launcher:	C:\Program Files\Java\jre1.8.0_351\bin\javaw.exe (OK)
+Version string: 1.008.000_351 / 64-Bit (OK)
+Launcher:	C:\Program Files\Java\jre1.8.0_351\bin\javaw.exe
+Launcher args:	--add-exports=java.desktop/sun.swing=ALL-UNNAMED    --add-exports=java.desktop/sun.swing.table=ALL-UNNAMED    --add-exports=java.desktop/sun.swing.plaf.synth=ALL-UNNAMED    --add-opens=java.desktop/javax.swing.pl
