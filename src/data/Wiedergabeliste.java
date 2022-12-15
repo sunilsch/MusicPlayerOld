@@ -10,7 +10,7 @@ import java.util.Scanner;
  */
 public class Wiedergabeliste
 {
-    List<Titel> liste = new List<Titel>();
+    List<Titel> liste = new List<>();
     int laenge;
     String name;
     SQL_Helper sqlHelper;
@@ -38,7 +38,6 @@ public class Wiedergabeliste
                 einfuegen(titelList.get(n));
             } catch(Exception e) {
                 System.out.println("Try again");
-                return;
             }
         }
         

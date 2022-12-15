@@ -1,3 +1,4 @@
+package data;
 import java.sql.* ;
 import java.util.ArrayList;
 
@@ -43,7 +44,7 @@ public class SQL_Helper
             while(result.next()){
                 String name = result.getString("name");
                 String interpret = result.getString("interpret");
-                double dauer = Double.valueOf(result.getString("dauer"));
+                double dauer = Double.parseDouble(result.getString("dauer"));
                 titel.add(new Titel(name, interpret, dauer));
             }
             result.close();
