@@ -14,9 +14,27 @@ public class Main {
     public Main() throws ParseException, UnsupportedLookAndFeelException, LineUnavailableException {
         UIManager.setLookAndFeel(new SyntheticaDarkLookAndFeel());
         JFrame gui = new MainWindow("Music-Player", this);
-        Player player = new Player();
-        //player.playSong(System.getProperty("user.dir")+"/audio/test.wav");
+        this.player = new Player();
+        // DEBUG OPEN
+        player.openSong(System.getProperty("user.dir")+"/audio/test.wav");
     }
+
+    public void playMusic(){
+        player.startSong();
+    }
+
+    public void stopMusic(){
+        player.stopSong();
+    }
+    public void skipMusic(){
+        return;
+    }
+    public void reverseSkipMusic(){
+        return;
+    }
+
+
+
 
 
 }

@@ -47,7 +47,7 @@
                     <properties/>
                     <border type="none"/>
                     <children>
-                      <component id="1737b" class="javax.swing.JList" binding="list2" default-binding="true">
+                      <component id="1737b" class="javax.swing.JList" binding="listLeft">
                         <constraints/>
                         <properties>
                           <font name="Source Code Pro" size="16"/>
@@ -83,7 +83,7 @@
                     <properties/>
                     <border type="none"/>
                     <children>
-                      <component id="9f3ba" class="javax.swing.JList" binding="list1" default-binding="true">
+                      <component id="9f3ba" class="javax.swing.JList" binding="listRight">
                         <constraints/>
                         <properties>
                           <font name="Source Code Pro" size="16"/>
@@ -234,7 +234,7 @@
                 <properties/>
                 <border type="none"/>
                 <children>
-                  <component id="837ee" class="javax.swing.JList" default-binding="true">
+                  <component id="837ee" class="javax.swing.JList" binding="listSongs">
                     <constraints/>
                     <properties>
                       <font name="Source Code Pro" size="16"/>
@@ -260,7 +260,7 @@
                 <properties/>
                 <border type="none"/>
                 <children>
-                  <component id="d537b" class="javax.swing.JTextField" binding="textField1" default-binding="true">
+                  <component id="d537b" class="javax.swing.JTextField" binding="searchInput">
                     <constraints>
                       <splitpane position="left"/>
                     </constraints>
@@ -269,7 +269,7 @@
                       <text value=""/>
                     </properties>
                   </component>
-                  <component id="720a0" class="javax.swing.JButton" binding="suchenButton" default-binding="true">
+                  <component id="720a0" class="javax.swing.JButton" binding="searchButton" default-binding="true">
                     <constraints>
                       <splitpane position="right"/>
                     </constraints>

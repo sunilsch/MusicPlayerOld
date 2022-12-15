@@ -9,21 +9,26 @@ public class Player {
         clip = AudioSystem.getClip();
     }
 
-    public void playSong(String filename){
+    public void openSong(String filename){
+        System.out.print("Play song!");
         try{
             File file = new File(filename);
             AudioInputStream audio = AudioSystem.getAudioInputStream(file);
             clip.open(audio);
-            clip.start();
-            clip.loop(Clip.LOOP_CONTINUOUSLY);
-            System.out.print("Started");
+            System.out.print("Opened");
         } catch (Exception e){
             System.out.print(e);
         }
     }
 
-    public void stopSong(){
+    public void startSong(){
+        clip.start();
+        clip.loop(Clip.LOOP_CONTINUOUSLY);
+    }
 
+    public void stopSong(){
+        System.out.print("Stop song!");
+        clip.stop();
     }
 
     public long getCurrentTimePosition(){
