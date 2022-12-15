@@ -9,7 +9,7 @@ import java.text.ParseException;
 
 public class Main {
     private final Player player;
-
+    private final MainWindow gui;
 
 
 
@@ -20,9 +20,9 @@ public class Main {
 
     public Main() throws ParseException, UnsupportedLookAndFeelException, LineUnavailableException {
         UIManager.setLookAndFeel(new SyntheticaDarkLookAndFeel());
-        JFrame gui = new MainWindow("Music-Player", this);
         this.player = new Player();
-
+        this.gui = new MainWindow("Music-Player", this);
+        startProgressBarProcess();
         // DEBUG OPEN
         player.openSong(System.getProperty("user.dir")+"/audio/test.wav");
     }
@@ -39,5 +39,19 @@ public class Main {
     }
     public void reverseSkipMusic(){
         return;
+    }
+    public void startProgressBarProcess(){
+        new Thread(() -> {
+            while(true){
+
+                gui.updateProgress(player.getCurrentTimePosition(), player.getTotalTime());
+                System.out.print(".");
+                try {
+                    Thread.sleep(100);
+                } catch (InterruptedException e) {
+                    e.printStackTrace();
+                }
+            }
+        }).start();
     }
 }

@@ -31,9 +31,11 @@ public class MainWindow extends JFrame implements ActionListener {
 
     // Labels
     private JLabel equalizer;
+    private JLabel currentTimePositionLabel;
+    private JLabel totalTimeLabel;
 
     // Other
-    private JProgressBar progressBar1;
+    private JProgressBar progressBar;
 
     // reference to main.Main object
     private final Main main;
@@ -66,6 +68,15 @@ public class MainWindow extends JFrame implements ActionListener {
 
 
     }
+
+    /*
+     * _______________________ *
+     *
+     *  INIT Functions
+     *
+     * _______________________ *
+     *
+     */
 
     private void initWindow(){
         this.setPreferredSize(new Dimension(1250,1000));
@@ -102,12 +113,50 @@ public class MainWindow extends JFrame implements ActionListener {
     }
 
     /*
+     * _______________________ *
+     *
+     *  PROGRESS BAR
+     *
+     * _______________________ *
+     *
+     */
+
+    public void updateProgress(long currentTimePosition, long totalTime){
+        double n = ((double)(currentTimePosition)/(double)(totalTime));
+        int progress = (int)(n*100);
+        this.setProgressBar(progress);
+        this.setCurrentTimePositionLabel(currentTimePosition);
+        this.setTotalTimeLabel(totalTime);
+    }
+
+    private void setProgressBar(int progress){
+        progressBar.setValue(progress);
+    }
+
+    private void setCurrentTimePositionLabel(long currentTimePosition){
+        currentTimePositionLabel.setText(microSecondsToString(currentTimePosition));
+    }
+
+    private void setTotalTimeLabel(long totalTime){
+        totalTimeLabel.setText(microSecondsToString(totalTime));
+    }
+
+    private String microSecondsToString(long microSeconds){
+        long min = (microSeconds / 1000000) / 60;
+        long sec = (microSeconds / 1000000) % 60;
+        return String.format("%02d:%02d", min, sec);
+    }
+
+
+
+    /*
     * _______________________ *
     *
     *  BUTTON EVENTS
     *
     * _______________________ *
-    * */
+    *
+    */
 
     public void actionPerformed(ActionEvent ae){
         String action = ae.getActionCommand();
