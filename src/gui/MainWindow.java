@@ -108,7 +108,7 @@ public class MainWindow extends JFrame implements ActionListener {
         pauseButton.setIcon(new ImageIcon(new ImageIcon(System.getProperty("user.dir")+"/img/play.png").getImage().getScaledInstance(20, 20, Image.SCALE_DEFAULT)));
         reverseSkipButton.setIcon(new ImageIcon(new ImageIcon(System.getProperty("user.dir")+"/img/skip-button-reverse.png").getImage().getScaledInstance(20, 20, Image.SCALE_DEFAULT)));
         skipButton.setIcon(new ImageIcon(new ImageIcon(System.getProperty("user.dir")+"/img/skip-button.png").getImage().getScaledInstance(20, 20, Image.SCALE_DEFAULT)));
-        equalizer.setIcon(new ImageIcon(new ImageIcon(System.getProperty("user.dir")+"/img/Equalizer.gif").getImage().getScaledInstance(40, 40, Image.SCALE_DEFAULT)));
+        equalizer.setIcon(new ImageIcon(new ImageIcon(System.getProperty("user.dir")+"/img/Equalizer.png").getImage().getScaledInstance(40, 40, Image.SCALE_DEFAULT)));
 
     }
 
@@ -172,6 +172,7 @@ public class MainWindow extends JFrame implements ActionListener {
         pauseButton.setIcon(new ImageIcon(new ImageIcon(System.getProperty("user.dir")+"/img/play.png").getImage().getScaledInstance(20, 20, Image.SCALE_DEFAULT)));
         pauseButton.setActionCommand("play");
         main.stopMusic();
+        equalizer.setIcon(new ImageIcon(new ImageIcon(System.getProperty("user.dir")+"/img/Equalizer.png").getImage().getScaledInstance(40, 40, Image.SCALE_DEFAULT)));
     }
 
     private void playMusic(){
@@ -179,6 +180,7 @@ public class MainWindow extends JFrame implements ActionListener {
         pauseButton.setIcon(new ImageIcon(new ImageIcon(System.getProperty("user.dir")+"/img/pause.png").getImage().getScaledInstance(20, 20, Image.SCALE_DEFAULT)));
         pauseButton.setActionCommand("pause");
         main.playMusic();
+        equalizer.setIcon(new ImageIcon(new ImageIcon(System.getProperty("user.dir")+"/img/Equalizer.gif").getImage().getScaledInstance(40, 40, Image.SCALE_DEFAULT)));
     }
 
     private void skipMusic(){
