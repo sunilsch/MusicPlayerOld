@@ -10,14 +10,14 @@ public class Player {
     }
 
     public void openSong(String filename){
-        System.out.print("Play song!");
+        System.out.println("Play song!");
         try{
             File file = new File(filename);
             AudioInputStream audio = AudioSystem.getAudioInputStream(file);
             clip.open(audio);
-            System.out.print("Opened");
+            System.out.println("Opened");
         } catch (Exception e){
-            System.out.print(e);
+            System.out.println(e);
         }
     }
 
@@ -27,7 +27,7 @@ public class Player {
     }
 
     public void stopSong(){
-        System.out.print("Stop song!");
+        System.out.println("Stop song!");
         clip.stop();
     }
 

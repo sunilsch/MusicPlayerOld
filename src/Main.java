@@ -5,7 +5,7 @@ import javax.swing.*;
 import java.text.ParseException;
 
 public class Main {
-    private Player player;
+    private final Player player;
 
     public static void main(String[] args) throws UnsupportedLookAndFeelException, ParseException, LineUnavailableException {
         Main main = new Main();
@@ -15,6 +15,7 @@ public class Main {
         UIManager.setLookAndFeel(new SyntheticaDarkLookAndFeel());
         JFrame gui = new MainWindow("Music-Player", this);
         this.player = new Player();
+
         // DEBUG OPEN
         player.openSong(System.getProperty("user.dir")+"/audio/test.wav");
     }
@@ -32,9 +33,4 @@ public class Main {
     public void reverseSkipMusic(){
         return;
     }
-
-
-
-
-
 }
