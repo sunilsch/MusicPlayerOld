@@ -3,18 +3,18 @@ import java.sql.* ;
 import java.util.ArrayList;
 
 /**
- * Beschreiben Sie hier die Klasse SQL_Helper.
+ * This class connects to an SQL database and can search for Songs
  * 
  * @author (Ihr Name) 
  * @version (eine Versionsnummer oder ein Datum)
  */
 public class SQL_Helper
 {
-    // Instanzvariablen - ersetzen Sie das folgende Beispiel mit Ihren Variablen
+
     private Connection connection;
 
     /**
-     * Konstruktor für Objekte der Klasse SQL_Helper
+     * Constructor for SQL_Helper class
      */
     public SQL_Helper()
     {
@@ -36,16 +36,16 @@ public class SQL_Helper
             
     }
     
-    public ArrayList<Titel> searchTitel(String columnName, String pattern) {
-        ArrayList<Titel> titel = new ArrayList<Titel>();
+    public ArrayList<Song> searchSong(String columnName, String pattern) {
+        ArrayList<Song> song = new ArrayList<>();
         try{
             Statement statement = connection.createStatement();
             ResultSet result = statement.executeQuery("SELECT * FROM musik WHERE "+columnName+" LIKE '%"+pattern+"%'");
             while(result.next()){
                 String name = result.getString("name");
                 String interpret = result.getString("interpret");
-                double dauer = Double.parseDouble(result.getString("dauer"));
-                titel.add(new Titel(name, interpret, dauer));
+                double duration = Double.parseDouble(result.getString("dauer"));
+                song.add(new Song(name, interpret, duration));
             }
             result.close();
             statement.close();
@@ -60,6 +60,6 @@ public class SQL_Helper
         } catch(Exception e){
             System.out.println(e) ;
         }
-        return titel;
+        return song;
     }
 }
