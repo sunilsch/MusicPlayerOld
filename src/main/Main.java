@@ -1,26 +1,29 @@
 package main;
 
 import de.javasoft.synthetica.dark.SyntheticaDarkLookAndFeel;
-import gui.MainWindow;
 
-import javax.sound.sampled.LineUnavailableException;
 import javax.swing.*;
 import java.text.ParseException;
 
+import gui.MainWindow;
+import data.PlaylistsManagement;
+
 public class Main {
+
     private final Player player;
     private final MainWindow gui;
+    private final PlaylistsManagement playlistsManagement;
 
 
 
-
-    public static void main(String[] args) throws UnsupportedLookAndFeelException, ParseException, LineUnavailableException {
+    public static void main(String[] args) throws UnsupportedLookAndFeelException, ParseException {
         new Main();
     }
 
-    public Main() throws ParseException, UnsupportedLookAndFeelException, LineUnavailableException {
+    public Main() throws ParseException, UnsupportedLookAndFeelException {
         UIManager.setLookAndFeel(new SyntheticaDarkLookAndFeel());
         this.player = new Player();
+        this.playlistsManagement = new PlaylistsManagement();
         this.gui = new MainWindow("Music-Player", this);
         startProgressBarProcess();
         // DEBUG OPEN
@@ -35,23 +38,32 @@ public class Main {
         player.stopSong();
     }
     public void skipMusic(){
-        return;
     }
     public void reverseSkipMusic(){
-        return;
     }
-    public void startProgressBarProcess(){
-        new Thread(() -> {
-            while(true){
 
-                gui.updateProgress(player.getCurrentTimePosition(), player.getTotalTime());
-                System.out.print(".");
-                try {
-                    Thread.sleep(100);
-                } catch (InterruptedException e) {
-                    e.printStackTrace();
-                }
+    /*
+     * _______________________ *
+     *
+     *  PROGRESS BAR
+     *
+     * _______________________ *
+     *
+     */
+
+    public void startProgressBarProcess(){
+        new Thread(this::updateProgressBar).start();
+    }
+    private void updateProgressBar() {
+        while (true) {
+
+            gui.updateProgress(player.getCurrentTimePosition(), player.getTotalTime());
+            System.out.print(".");
+            try {
+                Thread.sleep(100);
+            } catch (InterruptedException e) {
+                e.printStackTrace();
             }
-        }).start();
+        }
     }
 }

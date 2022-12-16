@@ -4,11 +4,17 @@ import javax.sound.sampled.*;
 import java.io.File;
 
 public class Player {
-    private final Clip clip;
+    private Clip clip;
 
 
-    public Player() throws LineUnavailableException {
-        clip = AudioSystem.getClip();
+    public Player() {
+        try {
+            clip = AudioSystem.getClip();
+        } catch(Exception e){
+            System.out.println("Error in Constructor of class Player");
+            System.exit(1);
+        }
+
     }
 
     public void openSong(String filename){
