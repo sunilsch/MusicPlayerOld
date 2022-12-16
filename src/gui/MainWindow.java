@@ -65,8 +65,6 @@ public class MainWindow extends JFrame implements ActionListener {
         this.listLeft.setListData(data.toArray(new String[0]));
         // END DEBUG TEST //
 
-
-
     }
 
     /*
@@ -101,6 +99,8 @@ public class MainWindow extends JFrame implements ActionListener {
         skipButton.setActionCommand("skip");
         reverseSkipButton.addActionListener(this);
         reverseSkipButton.setActionCommand("skip-reverse");
+        searchButton.addActionListener(this);
+        searchButton.setActionCommand("search");
     }
 
     private void loadIcons(){
@@ -165,6 +165,7 @@ public class MainWindow extends JFrame implements ActionListener {
             case "play" -> this.playMusic();
             case "skip" -> this.skipMusic();
             case "skip-reverse" -> this.reverseSkipMusic();
+            case "search" -> this.searchSong();
         }
     }
 
@@ -188,6 +189,13 @@ public class MainWindow extends JFrame implements ActionListener {
     }
     private void reverseSkipMusic(){
         main.reverseSkipMusic();
+    }
+
+    private void searchSong(){
+        System.out.print("Search song: ");
+        String searchString = searchInput.getText();
+        if(searchString.isEmpty()) return;
+        System.out.println(searchString);
     }
 
 }
