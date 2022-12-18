@@ -1,10 +1,12 @@
 package main;
 
+import data.HTTP_Helper;
 import de.javasoft.synthetica.dark.SyntheticaDarkLookAndFeel;
 import gui.MainWindow;
 
 import javax.sound.sampled.LineUnavailableException;
 import javax.swing.*;
+import java.io.IOException;
 import java.text.ParseException;
 
 public class Main {
@@ -14,7 +16,8 @@ public class Main {
 
 
 
-    public static void main(String[] args) throws UnsupportedLookAndFeelException, ParseException, LineUnavailableException {
+    public static void main(String[] args) throws UnsupportedLookAndFeelException, ParseException, LineUnavailableException, IOException {
+        HTTP_Helper.getFromHTTPS("https://192.168.188.67/files/LRMonoPhase4.wav", "/LRMonoPhase4.wav");
         new Main();
     }
 
