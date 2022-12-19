@@ -12,7 +12,7 @@ public class PlaylistsManagement
 {
 
     private final List<Playlist> playlistList = new List<>();
-    
+    private final HTTPS_Helper httpsHelper = new HTTPS_Helper("192.168.188.67");
     private final SQL_Helper sqlHelper = new SQL_Helper();
 
     /**
@@ -23,7 +23,7 @@ public class PlaylistsManagement
     }
     
     public void createNewPlaylist(String name){
-        playlistList.append(new Playlist(name, sqlHelper));
+        playlistList.append(new Playlist(name, httpsHelper));
     }
     
     

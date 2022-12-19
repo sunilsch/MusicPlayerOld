@@ -9,17 +9,17 @@ package data;
  * Updated class to English
  */
 public class Playlist {
-    List<Song> playlist = new List<>();
-    int len;
-    String listName;
-    SQL_Helper sqlHelper;
+    private final List<Song> playlist = new List<>();
+    private int len;
+    private final String listName;
+    private final HTTPS_Helper httpsHelper;
     /**
      * Constructor for Playlist class
      */
-    public Playlist(String listName, SQL_Helper sqlHelper) {
+    public Playlist(String listName, HTTPS_Helper httpsHelper) {
         this.len = 0;
         this.listName = listName;
-        this.sqlHelper = sqlHelper;
+        this.httpsHelper = httpsHelper;
     }
 
     public void insert(Song pNeuerSong) {
