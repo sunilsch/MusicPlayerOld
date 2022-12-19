@@ -1,5 +1,6 @@
 package main;
 
+import data.HTTPS_Helper;
 import data.PlaylistsManagement;
 import de.javasoft.synthetica.dark.SyntheticaDarkLookAndFeel;
 import gui.MainWindow;
@@ -16,8 +17,9 @@ public class Main {
 
 
     public static void main(String[] args) throws UnsupportedLookAndFeelException, ParseException, LineUnavailableException, IOException {
-        // HTTPS_Helper.getFromHTTPS("https://192.168.188.67/files/LRMonoPhase4.wav", "/LRMonoPhase4.wav");
-        new Main();
+        HTTPS_Helper httpsHelper = new HTTPS_Helper("https://192.168.188.67");
+        httpsHelper.postSong(System.getProperty("user.dir")+"/audio/test.wav");
+        //new Main();
     }
 
     public Main() throws ParseException, UnsupportedLookAndFeelException, LineUnavailableException {

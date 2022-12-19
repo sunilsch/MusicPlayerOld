@@ -9,11 +9,11 @@ import java.nio.charset.StandardCharsets;
 import java.util.Base64;
 
 public class HTTPS_Helper {
-    private final String source;
+    private final String sourceIP;
 
     public HTTPS_Helper(final String sourceIP){
 
-        this.source = sourceIP;
+        this.sourceIP = sourceIP;
 
         // Create a new trust manager that trust all certificates
         TrustManager[] trustAllCerts = new TrustManager[]{
@@ -38,18 +38,14 @@ public class HTTPS_Helper {
         } catch (Exception e) {
             e.printStackTrace();
         }
-        HostnameVerifier allHostsValid = new HostnameVerifier() {
-            public boolean verify(String hostname, SSLSession session) {
-                return true;
-            }
-        };
+        HostnameVerifier allHostsValid = (hostname, session) -> true;
         HttpsURLConnection.setDefaultHostnameVerifier(allHostsValid);
     }
 
     public void getSong(final String songName) {
         try {
             // create URL Connection
-            URL url = new URL(source+"/files/"+songName+".wav");
+            URL url = new URL(sourceIP +"/files/"+songName+".wav");
             HttpsURLConnection connection = (HttpsURLConnection) url.openConnection();
 
             // init auth methode
@@ -73,5 +69,43 @@ public class HTTPS_Helper {
 
 
 
+    }
+
+    public void postSong(final String source){
+        String[] parts = source.split("/");
+        String filename = parts[parts.length-1];
+        System.out.println(filename);
+
+        try {
+            HttpsURLConnection httpsUrlConnection = (HttpsURLConnection) new URL(sourceIP+"/upload/upload-java.php?filename="+filename).openConnection();
+            httpsUrlConnection.setDoOutput(true);
+            httpsUrlConnection.setRequestMethod("POST");
+
+            String auth = "user:IbdUdRPI";
+            byte[] encodedAuth = Base64.getUrlEncoder().encode(auth.getBytes(StandardCharsets.UTF_8));
+            String authHeaderValue = "Basic " + new String(encodedAuth);
+            httpsUrlConnection.setRequestProperty("Authorization", authHeaderValue);
+
+            OutputStream os = httpsUrlConnection.getOutputStream();
+            Thread.sleep(1000);
+            BufferedInputStream fis = new BufferedInputStream(new FileInputStream(source));
+
+            long totalByte = fis.available();
+            for (int i = 0; i < totalByte; i++) {
+                os.write(fis.read());
+            }
+
+            os.close();
+            BufferedReader in = new BufferedReader(new InputStreamReader(httpsUrlConnection.getInputStream()));
+
+            String s;
+            while ((s = in.readLine()) != null) {
+                System.out.println(s);
+            }
+            in.close();
+            fis.close();
+        } catch(Exception e){
+            e.printStackTrace();
+        }
     }
 }
