@@ -17,9 +17,9 @@ public class Main {
 
 
     public static void main(String[] args) throws UnsupportedLookAndFeelException, ParseException, LineUnavailableException, IOException {
-        HTTPS_Helper httpsHelper = new HTTPS_Helper("https://192.168.188.67", "/files/","upload/upload-java.php");
+        HTTPS_Helper httpsHelper = new HTTPS_Helper("https://192.168.188.67", "/files/","/upload/upload-java.php");
         httpsHelper.postSong(System.getProperty("user.dir")+"/audio/test.wav");
-        new Main();
+        //new Main();
     }
 
     public Main() throws ParseException, UnsupportedLookAndFeelException, LineUnavailableException {
