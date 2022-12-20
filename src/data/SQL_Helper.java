@@ -45,7 +45,8 @@ public class SQL_Helper
                 String name = result.getString("name");
                 String interpret = result.getString("interpret");
                 double duration = Double.parseDouble(result.getString("dauer"));
-                song.add(new Song(name, interpret, duration));
+                String filename = result.getString("filename");
+                song.add(new Song(name, interpret, duration,filename));
             }
             result.close();
             statement.close();

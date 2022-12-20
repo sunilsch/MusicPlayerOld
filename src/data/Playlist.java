@@ -42,12 +42,15 @@ public class Playlist {
         }
     }
     
-    public void playNextSong() {
+    public Song getAndRemoveNextSong() {
+        playlist.toFirst();
         if(playlist.hasAccess()){
-            System.out.println(getCurrentSong()+"wird abgespielt");
+            Song nextSong = playlist.getContent();
             playlist.remove();
             len--;
+            return nextSong;
         }
+        return null;
     }
     
     // Beispielmethode

@@ -13,14 +13,16 @@ public class Song
     private final String songName;
     private final String artist;
     private final double duration;
+    private final String filename;
 
     /**
      * Constructor for Song class
      */
-    public Song(String songName, String artist, double duration) {
+    public Song(String songName, String artist, double duration, String filename) {
         this.songName = songName;
         this.artist = artist;
         this.duration = duration;
+        this.filename = filename;
     }
 
     /**
@@ -49,7 +51,11 @@ public class Song
     public double getDuration() {
         return duration;
     }
-    
+
+    public String getFilename(){
+        return filename;
+    }
+
     public String toString(){
         return artist + " - " + songName + ": " + duration;
     }

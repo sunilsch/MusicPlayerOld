@@ -14,6 +14,8 @@ public class PlaylistsManagement
     private final List<Playlist> playlistList;
     private final HTTPS_Helper httpsHelper;
     private final SQL_Helper sqlHelper;
+    private Playlist activePlaylist = null;
+    private int len = 0;
 
     /**
      * Constructor for PlaylistsManagement class
@@ -27,6 +29,10 @@ public class PlaylistsManagement
     
     public void createNewPlaylist(String name){
         playlistList.append(new Playlist(name, httpsHelper));
+        if(len == 0){
+            setActivePlaylist(name);
+        }
+        len++;
     }
     
     
@@ -35,6 +41,8 @@ public class PlaylistsManagement
         while(playlistList.hasAccess()){
             if(playlistList.getContent().getListName().equals(name)){
                 playlistList.remove();
+                len--;
+                if(len == 0) activePlaylist = null;
                 return true;
             }
         }
@@ -50,4 +58,38 @@ public class PlaylistsManagement
         }
         return null;
     }
+
+    public Playlist getActivePlaylist(){
+        return activePlaylist;
+    }
+
+    public void setActivePlaylist(String name){
+        if(len == 0){
+            System.out.println("PlaylistList is empty");
+            return;
+        }
+        playlistList.toFirst();
+        while(playlistList.hasAccess()){
+            if(playlistList.getContent().getListName().equals(name)){
+                activePlaylist = playlistList.getContent();
+                return;
+            }
+        }
+    }
+
+    public Song nextSong(){
+        if(activePlaylist == null){
+            System.out.println("There is no selected playlist");
+            return null;
+        } else {
+            Song nextSong = activePlaylist.getAndRemoveNextSong();
+            if(nextSong == null){
+                System.out.println("There is no next Song");
+                return null;
+            }
+            return nextSong;
+        }
+    }
+
+
 }

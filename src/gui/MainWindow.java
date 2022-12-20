@@ -1,4 +1,6 @@
 package gui;
+import data.PATH_Helper;
+import data.Song;
 import main.Main;
 import javax.swing.*;
 import java.awt.*;
@@ -33,6 +35,7 @@ public class MainWindow extends JFrame implements ActionListener {
     private JLabel equalizer;
     private JLabel currentTimePositionLabel;
     private JLabel totalTimeLabel;
+    private JLabel currentSongLabel;
 
     // Other
     private JProgressBar progressBar;
@@ -104,13 +107,29 @@ public class MainWindow extends JFrame implements ActionListener {
     }
 
     private void loadIcons(){
-        this.setIconImage(new ImageIcon(System.getProperty("user.dir")+"/img/music.png").getImage());
-        pauseButton.setIcon(new ImageIcon(new ImageIcon(System.getProperty("user.dir")+"/img/play.png").getImage().getScaledInstance(20, 20, Image.SCALE_DEFAULT)));
-        reverseSkipButton.setIcon(new ImageIcon(new ImageIcon(System.getProperty("user.dir")+"/img/skip-button-reverse.png").getImage().getScaledInstance(20, 20, Image.SCALE_DEFAULT)));
-        skipButton.setIcon(new ImageIcon(new ImageIcon(System.getProperty("user.dir")+"/img/skip-button.png").getImage().getScaledInstance(20, 20, Image.SCALE_DEFAULT)));
-        equalizer.setIcon(new ImageIcon(new ImageIcon(System.getProperty("user.dir")+"/img/Equalizer.png").getImage().getScaledInstance(40, 40, Image.SCALE_DEFAULT)));
+        this.setIconImage(new ImageIcon(PATH_Helper.getImagePath("music.ico")).getImage());
+        pauseButton.setIcon(loadAndResize("play.png",20,20));
+        reverseSkipButton.setIcon(loadAndResize("skip-button-reverse.png",20,20));
+        skipButton.setIcon(loadAndResize("skip-button.png",20,20));
+        equalizer.setIcon(loadAndResize("Equalizer.png",40,40));
 
     }
+
+    private ImageIcon loadAndResize(String filename, int width, int height){
+        return new ImageIcon(new ImageIcon(PATH_Helper.getImagePath(filename)).getImage().getScaledInstance(20, 20, Image.SCALE_DEFAULT));
+    }
+
+
+    public void setSong(Song song){
+        return;
+    }
+
+
+
+
+
+
+
 
     /*
      * _______________________ *
@@ -161,7 +180,7 @@ public class MainWindow extends JFrame implements ActionListener {
     public void actionPerformed(ActionEvent ae){
         String action = ae.getActionCommand();
         switch (action) {
-            case "pause" -> this.stopMusic();
+            case "pause" -> this.pauseMusic();
             case "play" -> this.playMusic();
             case "skip" -> this.skipMusic();
             case "skip-reverse" -> this.reverseSkipMusic();
@@ -169,19 +188,19 @@ public class MainWindow extends JFrame implements ActionListener {
         }
     }
 
-    private void stopMusic(){
-        pauseButton.setIcon(new ImageIcon(new ImageIcon(System.getProperty("user.dir")+"/img/play.png").getImage().getScaledInstance(20, 20, Image.SCALE_DEFAULT)));
+    private void pauseMusic(){
+        pauseButton.setIcon(loadAndResize("play.png",20,20));
         pauseButton.setActionCommand("play");
-        main.stopMusic();
-        equalizer.setIcon(new ImageIcon(new ImageIcon(System.getProperty("user.dir")+"/img/Equalizer.png").getImage().getScaledInstance(40, 40, Image.SCALE_DEFAULT)));
+        main.pauseMusic();
+        equalizer.setIcon(loadAndResize("Equalizer.png",40,40));
     }
 
     private void playMusic(){
         System.out.println("Play button pressed!");
-        pauseButton.setIcon(new ImageIcon(new ImageIcon(System.getProperty("user.dir")+"/img/pause.png").getImage().getScaledInstance(20, 20, Image.SCALE_DEFAULT)));
+        pauseButton.setIcon(loadAndResize("pause.png",20,20));
         pauseButton.setActionCommand("pause");
         main.playMusic();
-        equalizer.setIcon(new ImageIcon(new ImageIcon(System.getProperty("user.dir")+"/img/Equalizer.gif").getImage().getScaledInstance(40, 40, Image.SCALE_DEFAULT)));
+        equalizer.setIcon(loadAndResize("Equalizer.gif",40,40));
     }
 
     private void skipMusic(){
@@ -198,4 +217,20 @@ public class MainWindow extends JFrame implements ActionListener {
         System.out.println(searchString);
     }
 
+    public void setSongInfo(Song song){
+        if(song == null){
+            currentSongLabel.setText("---------------");
+        }
+    }
+
+    public void closeMusic() {
+        pauseButton.setIcon(loadAndResize("play.png",20,20));
+        equalizer.setIcon(loadAndResize("Equalizer.png",40,40));
+        progressBar.setValue(100);
+        currentTimePositionLabel.setText("--");
+        totalTimeLabel.setText("--");
+
+        setSongInfo(null);
+        pauseButton.setActionCommand("none");
+    }
 }

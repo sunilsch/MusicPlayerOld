@@ -1,6 +1,6 @@
 package main;
 
-import data.HTTPS_Helper;
+import data.Song;
 import data.PlaylistsManagement;
 import de.javasoft.synthetica.dark.SyntheticaDarkLookAndFeel;
 import gui.MainWindow;
@@ -17,9 +17,10 @@ public class Main {
 
 
     public static void main(String[] args) throws UnsupportedLookAndFeelException, ParseException, LineUnavailableException, IOException {
-        HTTPS_Helper httpsHelper = new HTTPS_Helper("https://192.168.188.67", "/files/","/upload/upload-java.php");
-        httpsHelper.postSong(System.getProperty("user.dir")+"/audio/test.wav");
-        //new Main();
+        //HTTPS_Helper httpsHelper = new HTTPS_Helper("https://192.168.188.67", "/files/","/upload/upload-java.php");
+        //httpsHelper.postSong(System.getProperty("user.dir")+"/audio/test.wav");
+        //httpsHelper.postSong("C:/Users/Linus/Downloads/imager_1.7.3.exe");
+        new Main();
     }
 
     public Main() throws ParseException, UnsupportedLookAndFeelException, LineUnavailableException {
@@ -27,7 +28,7 @@ public class Main {
         this.player = new Player();
         this.playlistsManagement = new PlaylistsManagement("192.168.188.67");
         this.gui = new MainWindow("Music-Player", this);
-        startProgressBarProcess();
+        startMainLoop();
         // DEBUG OPEN
         player.openSong(System.getProperty("user.dir")+"/audio/test.wav");
     }
@@ -36,19 +37,32 @@ public class Main {
         player.startSong();
     }
 
-    public void stopMusic(){
-        player.stopSong();
+    public void pauseMusic(){
+        player.pauseSong();
     }
     public void skipMusic(){
-        return;
+        Song nextSong = playlistsManagement.nextSong();
+        if(nextSong == null){
+            stopSong();
+            return;
+        };
+        gui.setSong(nextSong);
+        player.openSong(nextSong.getFilename());
+
     }
     public void reverseSkipMusic(){
         return;
     }
-    public void startProgressBarProcess(){
+    public void startMainLoop(){
         new Thread(() -> {
             while(true){
-                gui.updateProgress(player.getCurrentTimePosition(), player.getTotalTime());
+                if(player.isOpen()){
+                    gui.updateProgress(player.getCurrentTimePosition(), player.getTotalTime());
+                    if(player.getCurrentTimePosition() == player.getTotalTime()){
+                        System.out.println("Song finish playing next...");
+                        skipMusic();
+                    }
+                }
                 try {
                     Thread.sleep(100);
                 } catch (InterruptedException e) {
@@ -56,5 +70,9 @@ public class Main {
                 }
             }
         }).start();
+    }
+    public void stopSong(){
+        player.closeSong();
+        gui.closeMusic();
     }
 }

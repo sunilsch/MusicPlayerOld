@@ -16,9 +16,18 @@ public class Player {
         }
 
     }
+    public void closeSong(){
+        if(clip.isOpen()){
+            System.out.println("Close clip finish!");
+            clip.close();
+
+        }
+    }
+
 
     public void openSong(String filename){
-        System.out.println("Play song!");
+        closeSong();
+
         try{
             File file = new File(filename);
             AudioInputStream audio = AudioSystem.getAudioInputStream(file);
@@ -30,11 +39,11 @@ public class Player {
     }
 
     public void startSong(){
+        System.out.println("Play song!");
         clip.start();
-        clip.loop(Clip.LOOP_CONTINUOUSLY);
     }
 
-    public void stopSong(){
+    public void pauseSong(){
         System.out.println("Stop song!");
         clip.stop();
     }
@@ -45,5 +54,9 @@ public class Player {
 
     public long getTotalTime(){
         return clip.getMicrosecondLength();
+    }
+
+    public boolean isOpen(){
+        return clip.isOpen();
     }
 }
