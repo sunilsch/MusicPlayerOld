@@ -1,7 +1,6 @@
 package main;
 
-import data.Song;
-import data.PlaylistsManagement;
+import data.*;
 import de.javasoft.synthetica.dark.SyntheticaDarkLookAndFeel;
 import gui.MainWindow;
 import javax.sound.sampled.LineUnavailableException;
@@ -41,12 +40,14 @@ public class Main {
         player.pauseSong();
     }
     public void skipMusic(){
+        Playlist currentPlaylist = playlistsManagement.getActivePlaylist();
         Song nextSong = playlistsManagement.nextSong();
         if(nextSong == null){
             stopSong();
             return;
         };
-        gui.setSong(nextSong);
+        gui.setSongInfo(nextSong);
+        gui.updatePlaylist(currentPlaylist);
         player.openSong(nextSong.getFilename());
 
     }

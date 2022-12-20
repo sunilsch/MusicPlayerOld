@@ -1,6 +1,5 @@
 package gui;
-import data.PATH_Helper;
-import data.Song;
+import data.*;
 import main.Main;
 import javax.swing.*;
 import java.awt.*;
@@ -120,15 +119,13 @@ public class MainWindow extends JFrame implements ActionListener {
     }
 
 
-    public void setSong(Song song){
-        return;
+
+
+
+
+    public void updatePlaylist(Playlist playlist){
+        // import playlist to list view
     }
-
-
-
-
-
-
 
 
     /*
@@ -220,6 +217,8 @@ public class MainWindow extends JFrame implements ActionListener {
     public void setSongInfo(Song song){
         if(song == null){
             currentSongLabel.setText("---------------");
+        } else {
+            currentSongLabel.setText("");
         }
     }
 
