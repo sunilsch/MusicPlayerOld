@@ -10,10 +10,18 @@ import java.util.Base64;
 
 public class HTTPS_Helper {
     private final String sourceIP;
+    private final String getPath;
+    private final String postPath;
+    private final String username = "user";
+    private final String password = "IbdUdRPI";
 
-    public HTTPS_Helper(final String sourceIP){
+    public HTTPS_Helper(final String sourceIP, final String getPath, final String postPath){
 
         this.sourceIP = sourceIP;
+        this.getPath = getPath;
+        this.postPath = postPath;
+
+
 
         // Create a new trust manager that trust all certificates
         TrustManager[] trustAllCerts = new TrustManager[]{
@@ -45,14 +53,11 @@ public class HTTPS_Helper {
     public void getSong(final String songName) {
         try {
             // create URL Connection
-            URL url = new URL(sourceIP +"/files/"+songName+".wav");
+            URL url = new URL(sourceIP+getPath+songName+".wav");
             HttpsURLConnection connection = (HttpsURLConnection) url.openConnection();
 
             // init auth methode
-            String auth = "user:IbdUdRPI";
-            byte[] encodedAuth = Base64.getUrlEncoder().encode(auth.getBytes(StandardCharsets.UTF_8));
-            String authHeaderValue = "Basic " + new String(encodedAuth);
-            connection.setRequestProperty("Authorization", authHeaderValue);
+            auth(connection);
 
             // get result as stream
             InputStream inputStream = connection.getInputStream();
@@ -71,22 +76,26 @@ public class HTTPS_Helper {
 
     }
 
+    public void auth(HttpsURLConnection connection){
+        String auth = username+":"+password;
+        byte[] encodedAuth = Base64.getUrlEncoder().encode(auth.getBytes(StandardCharsets.UTF_8));
+        String authHeaderValue = "Basic " + new String(encodedAuth);
+        connection.setRequestProperty("Authorization", authHeaderValue);
+    }
+
+
     public void postSong(final String source){
         String[] parts = source.split("/");
         String filename = parts[parts.length-1];
-        System.out.println(filename);
 
         try {
-            HttpsURLConnection httpsUrlConnection = (HttpsURLConnection) new URL(sourceIP+"/upload/upload-java.php?filename="+filename).openConnection();
-            httpsUrlConnection.setDoOutput(true);
-            httpsUrlConnection.setRequestMethod("POST");
+            HttpsURLConnection connection = (HttpsURLConnection) new URL(sourceIP+postPath+"?filename="+filename).openConnection();
+            connection.setDoOutput(true);
+            connection.setRequestMethod("POST");
 
-            String auth = "user:IbdUdRPI";
-            byte[] encodedAuth = Base64.getUrlEncoder().encode(auth.getBytes(StandardCharsets.UTF_8));
-            String authHeaderValue = "Basic " + new String(encodedAuth);
-            httpsUrlConnection.setRequestProperty("Authorization", authHeaderValue);
+            auth(connection);
 
-            OutputStream os = httpsUrlConnection.getOutputStream();
+            OutputStream os = connection.getOutputStream();
             Thread.sleep(1000);
             BufferedInputStream fis = new BufferedInputStream(new FileInputStream(source));
 
@@ -96,7 +105,7 @@ public class HTTPS_Helper {
             }
 
             os.close();
-            BufferedReader in = new BufferedReader(new InputStreamReader(httpsUrlConnection.getInputStream()));
+            BufferedReader in = new BufferedReader(new InputStreamReader(connection.getInputStream()));
 
             String s;
             while ((s = in.readLine()) != null) {

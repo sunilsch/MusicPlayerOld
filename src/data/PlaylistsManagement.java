@@ -10,16 +10,19 @@ package data;
  */
 public class PlaylistsManagement
 {
-
-    private final List<Playlist> playlistList = new List<>();
-    private final HTTPS_Helper httpsHelper = new HTTPS_Helper("192.168.188.67");
-    private final SQL_Helper sqlHelper = new SQL_Helper();
+    private final String serverIP;
+    private final List<Playlist> playlistList;
+    private final HTTPS_Helper httpsHelper;
+    private final SQL_Helper sqlHelper;
 
     /**
      * Constructor for PlaylistsManagement class
      */
-    public PlaylistsManagement() {
-
+    public PlaylistsManagement(final String serverIP) {
+        this.serverIP = serverIP;
+        this.httpsHelper = new HTTPS_Helper(this.serverIP,"/files/","/upload/upload-java.php");
+        this.sqlHelper = new SQL_Helper();
+        this.playlistList = new List<>();
     }
     
     public void createNewPlaylist(String name){
