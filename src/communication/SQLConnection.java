@@ -1,4 +1,7 @@
-package data;
+package communication;
+
+import data.Song;
+
 import java.sql.* ;
 import java.util.ArrayList;
 
@@ -8,7 +11,7 @@ import java.util.ArrayList;
  * @author (Ihr Name) 
  * @version (eine Versionsnummer oder ein Datum)
  */
-public class SQL_Helper
+public class SQLConnection
 {
 
     private Connection connection;
@@ -16,7 +19,7 @@ public class SQL_Helper
     /**
      * Constructor for SQL_Helper class
      */
-    public SQL_Helper()
+    public SQLConnection()
     {
         try{
             Class.forName("com.mysql.cj.jdbc.Driver");

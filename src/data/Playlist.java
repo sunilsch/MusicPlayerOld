@@ -12,14 +12,12 @@ public class Playlist {
     private final List<Song> playlist = new List<>();
     private int len;
     private final String listName;
-    private final HTTPS_Helper httpsHelper;
     /**
      * Constructor for Playlist class
      */
-    public Playlist(String listName, HTTPS_Helper httpsHelper) {
+    public Playlist(String listName) {
         this.len = 0;
         this.listName = listName;
-        this.httpsHelper = httpsHelper;
     }
 
     public void insert(Song pNeuerSong) {

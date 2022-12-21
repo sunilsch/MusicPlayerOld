@@ -1,4 +1,6 @@
-package data;
+package manager;
+
+import data.*;
 
 /**
  * This class represents the PlaylistsManagement System
@@ -8,27 +10,21 @@ package data;
  *
  * Updated class to English
  */
-public class PlaylistsManagement
+public class PlaylistsManager
 {
-    private final String serverIP;
     private final List<Playlist> playlistList;
-    private final HTTPS_Helper httpsHelper;
-    private final SQL_Helper sqlHelper;
     private Playlist activePlaylist = null;
     private int len = 0;
 
     /**
      * Constructor for PlaylistsManagement class
      */
-    public PlaylistsManagement(final String serverIP) {
-        this.serverIP = serverIP;
-        this.httpsHelper = new HTTPS_Helper(this.serverIP,"/files/","/upload/upload-java.php");
-        this.sqlHelper = new SQL_Helper();
+    public PlaylistsManager() {
         this.playlistList = new List<>();
     }
     
     public void createNewPlaylist(String name){
-        playlistList.append(new Playlist(name, httpsHelper));
+        playlistList.append(new Playlist(name));
         if(len == 0){
             setActivePlaylist(name);
         }

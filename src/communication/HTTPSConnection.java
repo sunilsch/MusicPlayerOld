@@ -1,4 +1,4 @@
-package data;
+package communication;
 
 import javax.net.ssl.*;
 import java.io.*;
@@ -8,14 +8,14 @@ import java.nio.channels.ReadableByteChannel;
 import java.nio.charset.StandardCharsets;
 import java.util.Base64;
 
-public class HTTPS_Helper {
+public class HTTPSConnection {
     private final String sourceIP;
     private final String getPath;
     private final String postPath;
     private final String username = "user";
     private final String password = "IbdUdRPI";
 
-    public HTTPS_Helper(final String sourceIP, final String getPath, final String postPath){
+    public HTTPSConnection(final String sourceIP, final String getPath, final String postPath){
         this.sourceIP = sourceIP;
         this.getPath = getPath;
         this.postPath = postPath;
