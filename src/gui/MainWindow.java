@@ -57,7 +57,7 @@ public class MainWindow extends JFrame implements ActionListener {
         initButtons();
         this.setVisible(true);
         this.main = main;
-
+        closeMusic();
         // START DEBUG TEST //
         ArrayList<String> data = new ArrayList<>();
         for(int i = 0; i < 100; i++){

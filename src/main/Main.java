@@ -28,7 +28,7 @@ public class Main {
         this.songManager = new SongManager("192.168.188.67");
         startMainLoop();
         // DEBUG OPEN
-        player.openSong(System.getProperty("user.dir")+"/audio/test.wav");
+        player.openSong(System.getProperty("user.dir")+"/audio/piano2.wav");
     }
 
     public void setUIManager(){
