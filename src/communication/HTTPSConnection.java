@@ -7,18 +7,33 @@ import java.nio.channels.Channels;
 import java.nio.channels.ReadableByteChannel;
 import java.nio.charset.StandardCharsets;
 import java.util.Base64;
+import java.util.Scanner;
+
+import data.PATH_Helper;
 
 public class HTTPSConnection {
-    private final String sourceIP;
+    private final String serverIP;
     private final String getPath;
     private final String postPath;
-    private final String username = "user";
-    private final String password = "IbdUdRPI";
+    private String username;
+    private String password;
 
-    public HTTPSConnection(final String sourceIP, final String getPath, final String postPath){
-        this.sourceIP = sourceIP;
+    public HTTPSConnection(final String serverIP, final String getPath, final String postPath) {
+        this.serverIP = "https://"+serverIP;
         this.getPath = getPath;
         this.postPath = postPath;
+
+        // get credentials form /config/loginHTTPS.txt -> format user:password
+        File file = new File(PATH_Helper.getConfigPath("loginHTTPS.txt"));
+        try{
+            Scanner scanner = new Scanner(file);
+            String[] creds = scanner.nextLine().split(";");
+            username = creds[0];
+            password = creds[1];
+        } catch(Exception e){
+            System.out.println("Cant find config file for https login");
+            e.printStackTrace();
+        }
 
         // Create a new trust manager that trust all certificates
         TrustManager[] trustAllCerts = new TrustManager[]{
@@ -58,7 +73,7 @@ public class HTTPSConnection {
         new Thread(() -> {
             try {
                 // create URL Connection
-                URL url = new URL(sourceIP+getPath+fileName+".wav");
+                URL url = new URL(serverIP+getPath+fileName);
                 HttpsURLConnection connection = (HttpsURLConnection) url.openConnection();
 
                 // init auth methode
@@ -68,7 +83,7 @@ public class HTTPSConnection {
                 InputStream inputStream = connection.getInputStream();
 
                 // write result to file
-                FileOutputStream fileOutputStream = new FileOutputStream(System.getProperty("user.dir")+"/audio/"+fileName+".wav");
+                FileOutputStream fileOutputStream = new FileOutputStream(PATH_Helper.getAudioPath(fileName));
                 ReadableByteChannel rbc = Channels.newChannel(inputStream);
                 fileOutputStream.getChannel().transferFrom(rbc, 0, Long.MAX_VALUE);
             } catch(Exception e){
@@ -79,13 +94,14 @@ public class HTTPSConnection {
         }).start();
     }
 
-    public void postSong(final String source){
+    public void postSong(final String fileName){
+        final String source = PATH_Helper.getAudioPath(fileName);
         new Thread(() -> {
             String[] parts = source.split("/");
             String filename = parts[parts.length-1];
 
             try {
-                HttpsURLConnection connection = (HttpsURLConnection) new URL(sourceIP+postPath+"?filename="+filename).openConnection();
+                HttpsURLConnection connection = (HttpsURLConnection) new URL(serverIP+postPath+"?filename="+filename).openConnection();
                 connection.setDoOutput(true);
                 connection.setRequestMethod("POST");
 

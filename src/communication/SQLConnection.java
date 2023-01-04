@@ -19,11 +19,12 @@ public class SQLConnection
     /**
      * Constructor for SQL_Helper class
      */
-    public SQLConnection()
+    public SQLConnection(final String serverIP)
     {
         try{
             Class.forName("com.mysql.cj.jdbc.Driver");
-            connection = DriverManager.getConnection("jdbc:mysql://localhost/datenbank?user=root&password=p@ssword" );
+
+            connection = DriverManager.getConnection("jdbc:mysql://"+serverIP+"/musik?user=root&password=p@ssword" );
         } catch( SQLException se ) {
             System.out.println( "SQL Exception:" ) ;
             while( se != null ) {

@@ -15,10 +15,11 @@ public class SongManager {
     // connection with sql, https
     // gui new song window
     // controls song section of main window
-    public SongManager(final String serverIP){
+    public SongManager(final String serverIP) {
         this.serverIP = serverIP;
         this.httpsHelper = new HTTPSConnection(this.serverIP,"/files/","/upload/upload-java.php");
-        this.sqlHelper = new SQLConnection();
+        this.sqlHelper = new SQLConnection(serverIP);
+        httpsHelper.getSong("test.wav");
     }
 
     public ArrayList<Song> search(String searchString){

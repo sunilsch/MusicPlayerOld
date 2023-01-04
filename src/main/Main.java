@@ -28,7 +28,7 @@ public class Main {
         this.player = new Player();
         this.playlistsManager = new PlaylistsManager();
         this.gui = new MainWindow("Music-Player", this);
-        this.songManager = new SongManager("192.168.188.67");
+        this.songManager = new SongManager("hswsql.ddns.net");
         startMainLoop();
         // DEBUG OPEN
         player.openSong(System.getProperty("user.dir")+"/audio/piano2.wav");
