@@ -27,6 +27,7 @@ public class MainWindow extends JFrame implements ActionListener {
     private JSplitPane outSplitPane;
     private JSplitPane searchSplitPane;
     private JSplitPane splitPane1;
+    private JSplitPane splitPane2;
 
     // Text input
     private JTextField searchInput;
@@ -89,6 +90,9 @@ public class MainWindow extends JFrame implements ActionListener {
     private void initSplitPanes(){
         splitPane1.setDividerLocation(0.5);
         splitPane1.setResizeWeight(0.5);
+        splitPane2.setDividerLocation(0.5);
+        splitPane2.setResizeWeight(0.5);
+
         outSplitPane.setDividerLocation(0.5);
         outSplitPane.setResizeWeight(0.5);
         searchSplitPane.setDividerLocation(0.75);
@@ -213,6 +217,7 @@ public class MainWindow extends JFrame implements ActionListener {
         String searchString = searchInput.getText();
         if(searchString.isEmpty()) return;
         System.out.println(searchString);
+        main.searchSong(searchString);
     }
 
     public void setSongInfo(Song song){
