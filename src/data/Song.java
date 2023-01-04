@@ -2,61 +2,30 @@ package data;
 
 /**
  * This class represents a song with name, artist and duration.
- * 
+ *
  * @author Linus
  * @version 15.12 v.2.0 Update
- *
+ * <p>
  * Updated class to English
  */
-public class Song
-{
-    private final String songName;
-    private final String artist;
-    private final double duration;
-    private final String filename;
+public record Song(String songName, String artist, double duration, String filename) {
 
-    /**
-     * Constructor for Song class
-     */
-    public Song(String songName, String artist, double duration, String filename) {
-        this.songName = songName;
-        this.artist = artist;
-        this.duration = duration;
-        this.filename = filename;
-    }
-
-    /**
-     * Returns the song name
-     * 
-     * @return        name of song
-     */
-    public String getSongName() {
+    @Override
+    public String songName() {
         return songName;
     }
-    
-      /**
-     * Returns the artist
-     * 
-     * @return        interpret of song
-     */
-    public String getArtist() {
+
+    @Override
+    public String artist() {
         return artist;
     }
-    
-      /**
-     * Returns the duration
-     * 
-     * @return        duration of song
-     */
-    public double getDuration() {
+
+    @Override
+    public double duration() {
         return duration;
     }
 
-    public String getFilename(){
-        return filename;
-    }
-
-    public String toString(){
-        return artist + " - " + songName + ": " + duration;
+    public String toString() {
+        return artist + " - " + songName + " : " + duration;
     }
 }
