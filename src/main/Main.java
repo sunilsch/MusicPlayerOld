@@ -4,8 +4,11 @@ import data.*;
 import manager.*;
 import gui.*;
 
+// UI / GUI
 import de.javasoft.synthetica.dark.SyntheticaDarkLookAndFeel;
 import javax.swing.UIManager;
+
+import java.util.ArrayList;
 
 public class Main {
     private final Player player;
@@ -56,7 +59,7 @@ public class Main {
         };
         gui.setSongInfo(nextSong);
         gui.updatePlaylist(currentPlaylist);
-        player.openSong(nextSong.getFilename());
+        player.openSong(nextSong.filename());
 
     }
     public void reverseSkipMusic(){
@@ -84,4 +87,11 @@ public class Main {
         player.closeSong();
         gui.closeMusic();
     }
+
+    public void searchSong(String searchString){
+        ArrayList<Song> result = songManager.search(searchString);
+    }
+
+
+
 }
