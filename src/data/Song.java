@@ -5,10 +5,10 @@ package data;
  *
  * @author Linus
  * @version 15.12 v.2.0 Update
- * <p>
- * Updated class to English
+ *
  */
-public record Song(String songName, String artist, double duration, String filename) {
+
+public record Song(String songName, String artist, String filename) {
 
     @Override
     public String songName() {
@@ -21,11 +21,11 @@ public record Song(String songName, String artist, double duration, String filen
     }
 
     @Override
-    public double duration() {
-        return duration;
+    public String filename() {
+        return filename;
     }
 
     public String toString() {
-        return artist + " - " + songName + " : " + duration;
+        return artist + " - " + songName;
     }
 }

@@ -1,7 +1,6 @@
 package manager;
 
 import communication.HTTPSConnection;
-import communication.SQLConnection;
 import data.Song;
 
 import java.util.ArrayList;
@@ -9,7 +8,6 @@ import java.util.ArrayList;
 public class SongManager {
     private final String serverIP;
     private final HTTPSConnection httpsHelper;
-    private final SQLConnection sqlHelper;
 
 
     // connection with sql, https
@@ -18,7 +16,6 @@ public class SongManager {
     public SongManager(final String serverIP) {
         this.serverIP = serverIP;
         this.httpsHelper = new HTTPSConnection(this.serverIP,"/files/","/upload/upload-java.php");
-        this.sqlHelper = new SQLConnection(serverIP);
         httpsHelper.getSong("test.wav");
     }
 

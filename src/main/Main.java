@@ -25,13 +25,15 @@ public class Main {
 
     public Main() {
         setUIManager();
+
+        new loginWindow("Login");
         this.player = new Player();
         this.playlistsManager = new PlaylistsManager();
         this.gui = new MainWindow("Music-Player", this);
         this.songManager = new SongManager("hswsql.ddns.net");
         startMainLoop();
         // DEBUG OPEN
-        player.openSong(System.getProperty("user.dir")+"/audio/piano2.wav");
+        //player.openSong(System.getProperty("user.dir")+"/audio/piano2.wav");
     }
 
     public void setUIManager(){
